@@ -1,0 +1,9 @@
+C:\Users\namxe\Documents\Devel\BlazorGraphQL\obj\Debug\net7.0\BlazorGraphQL.csproj.AssemblyReference.cache
+C:\Users\namxe\Documents\Devel\BlazorGraphQL\obj\Debug\net7.0\BlazorGraphQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namxe\Documents\Devel\BlazorGraphQL\obj\Debug\net7.0\BlazorGraphQL.AssemblyInfoInputs.cache
+C:\Users\namxe\Documents\Devel\BlazorGraphQL\obj\Debug\net7.0\BlazorGraphQL.AssemblyInfo.cs
+C:\Users\namxe\Documents\Devel\BlazorGraphQL\obj\Debug\net7.0\BlazorGraphQL.csproj.CoreCompileInputs.cache
+C:\Users\namxe\Documents\Devel\BlazorGraphQL\obj\Debug\net7.0\BlazorGraphQL.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\namxe\Documents\Devel\BlazorGraphQL\obj\Debug\net7.0\BlazorGraphQL.RazorAssemblyInfo.cache
+C:\Users\namxe\Documents\Devel\BlazorGraphQL\obj\Debug\net7.0\BlazorGraphQL.RazorAssemblyInfo.cs
+C:\Users\namxe\Documents\Devel\BlazorGraphQL\obj\Debug\net7.0\BlazorGraphQL.sourcelink.json
