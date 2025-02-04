@@ -38,6 +38,29 @@ GraphQL is a query language for APIs that enables clients to request exactly the
 
 - SQLite Database for Storing Books
 
+## ⚡ Getting Started
+
+- 1️⃣ Clone the Repository
+
+git clone https://github.com/your-username/BlazorGraphQL.git
+cd BlazorGraphQL
+
+- 2️⃣ Install Dependencies
+
+dotnet restore
+
+- 3️⃣ Run Database Migrations
+
+Ensure SQLite is set up and apply migrations:
+
+dotnet ef database update
+
+- 4️⃣ Run the Application
+
+dotnet run
+
+## Navigate to http://localhost:5206/ui/playground to explore the GraphQL Playground.
+
 - Sorting and Filtering with GraphQL
 
 - CORS Configured for External API Calls
