@@ -1,0 +1,71 @@
+﻿@page "/books"
+@inject HttpClient Http
+
+<h3>📚 Book List</h3>
+
+@if (books == null)
+{
+    <p>Loading...</p>
+}
+else if (!books.Any())
+{
+    <p>No books found.</p>
+}
+else
+{
+    <ul>
+        @foreach (var book in books)
+        {
+            <li>@book.Title by @book.Author</li>
+        }
+    </ul>
+}
+
+@code {
+    private List<Book>? books;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            var query = new
+            {
+                query = @"
+                {
+                    books {
+                        id
+                        title
+                        author
+                    }
+                }"
+            };
+
+            var response = await Http.PostAsJsonAsync("graphql", query);
+            response.EnsureSuccessStatusCode();
+
+            var result = await response.Content.ReadFromJsonAsync<GraphQLResponse>();
+            books = result?.Data?.Books ?? new List<Book>();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching books: {ex.Message}");
+        }
+    }
+
+    public class GraphQLResponse
+    {
+        public BooksData? Data { get; set; }
+    }
+
+    public class BooksData
+    {
+        public List<Book> Books { get; set; } = new();
+    }
+
+    public class Book
+    {
+        public int Id { get; set; }
+        public string Title { get; set; } = string.Empty;
+        public string Author { get; set; } = string.Empty;
+    }
+}
