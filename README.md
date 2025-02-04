@@ -64,3 +64,25 @@ dotnet run
 - Sorting and Filtering with GraphQL
 
 - CORS Configured for External API Calls
+
+## 📜 GraphQL API Endpoints
+
+- Query Books
+
+query {
+  books {
+    id
+    title
+    author
+  }
+}
+
+- Add a New Book
+
+mutation {
+  addBook(title: "The Pragmatic Programmer", author: "Andy Hunt") {
+    id
+    title
+    author
+  }
+}
