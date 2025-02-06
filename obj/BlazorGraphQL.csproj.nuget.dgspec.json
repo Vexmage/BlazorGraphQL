@@ -53,7 +53,7 @@
           "dependencies": {
             "HotChocolate.AspNetCore": {
               "target": "Package",
-              "version": "[13.0.0, )"
+              "version": "[15.0.1, )"
             },
             "HotChocolate.AspNetCore.Playground": {
               "target": "Package",
@@ -61,11 +61,11 @@
             },
             "HotChocolate.Data": {
               "target": "Package",
-              "version": "[13.0.0, )"
+              "version": "[15.0.1, )"
             },
             "HotChocolate.Data.EntityFramework": {
               "target": "Package",
-              "version": "[13.0.0, )"
+              "version": "[15.0.1, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

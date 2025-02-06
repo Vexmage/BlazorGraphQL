@@ -1,11 +1,8 @@
-using BlazorGraphQL.Data;
+﻿using BlazorGraphQL.Data;
 using BlazorGraphQL.GraphQL;
 using HotChocolate.AspNetCore;
-using HotChocolate.AspNetCore.Playground;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.EntityFrameworkCore.Migrations;
-using Microsoft.EntityFrameworkCore.Update;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,7 +19,6 @@ builder.Services.AddCors(options =>
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 
-
 builder.Services
     .AddGraphQLServer()
     .AddQueryType<BookQuery>()
@@ -31,29 +27,26 @@ builder.Services
     .AddSorting()
     .ModifyOptions(o =>
     {
-        o.RemoveUnreachableTypes = true; 
+        o.RemoveUnreachableTypes = true;
     });
 
-
-
+builder.Services.AddDbContextFactory<AppDbContext>(options =>
+{
+    options.UseSqlite("Data Source=books.db");
+});
 
 builder.Services.AddScoped(sp =>
     new HttpClient { BaseAddress = new Uri(builder.Configuration["ApiBaseUrl"] ?? "http://localhost:5206/") });
 
-builder.Services.AddDbContext<AppDbContext>(options =>
-{
-    options.UseSqlite("Data Source=books.db");
-    options.ReplaceService<IMigrationsSqlGenerator, SqliteMigrationsSqlGeneratorNoLock>();
-});
-
 var app = builder.Build();
 
+// ✅ Correctly handle migrations with DbContextFactory
 using (var scope = app.Services.CreateScope())
 {
-    var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-    dbContext.Database.Migrate(); 
+    var dbFactory = scope.ServiceProvider.GetRequiredService<IDbContextFactory<AppDbContext>>();
+    using var dbContext = dbFactory.CreateDbContext();
+    dbContext.Database.Migrate();
 }
-
 
 app.UseCors("AllowAll");
 
@@ -62,7 +55,7 @@ app.UseStaticFiles();
 app.MapGraphQL();
 
 app.MapBlazorHub();
-app.MapFallbackToPage("/_Host"); 
+app.MapFallbackToPage("/_Host");
 
 if (!app.Environment.IsDevelopment())
 {

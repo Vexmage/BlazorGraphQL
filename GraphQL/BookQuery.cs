@@ -2,16 +2,22 @@
 using BlazorGraphQL.Models;
 using HotChocolate;
 using HotChocolate.Data;
+using HotChocolate.Types;
 using Microsoft.EntityFrameworkCore;
 
 namespace BlazorGraphQL.GraphQL
 {
     public class BookQuery
     {
-        [UseDbContext(typeof(AppDbContext))] // No change needed
-        public IQueryable<Book> GetBooks([Service(ServiceKind.Pooled)] AppDbContext context)
+        [UseProjection]
+        [UseFiltering]
+        [UseSorting]
+        public IQueryable<Book> GetBooks([Service] IDbContextFactory<AppDbContext> dbContextFactory)
         {
-            return context.Books;
+            using var context = dbContextFactory.CreateDbContext();
+            return context.Books.AsQueryable();
         }
+
+
     }
 }
