@@ -4,9 +4,30 @@ html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+body {
+    background-color: #F4EAD5; /* Parchment background */
+    font-family: "Georgia", serif;
+    color: #2C2C2C;
+}
+
+/* Main content styling */
+main {
+    background-color: #F4EAD5; /* Parchment */
+    color: #2C2C2C; /* Dark text */
+    font-family: "Georgia", serif;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
 h1:focus {
     outline: none;
 }
+
+h1, h2, h3 {
+    font-family: "Merriweather", serif;
+    color: #5D4037; /* Deep brown */
+}
+
 
 a, .btn-link {
     color: #0071c1;
@@ -24,6 +45,39 @@ a, .btn-link {
 
 .content {
     padding-top: 1.1rem;
+}
+
+.navbar {
+    background-color: #5D4037; /* Rich brown */
+}
+
+.navbar-brand {
+    font-family: "Merriweather", serif;
+    color: #F5DEB3 !important; /* Warm wheat */
+}
+
+.navbar a {
+    color: #F5DEB3 !important;
+}
+
+/* Navbar adjustments */
+.navbar-brand {
+    font-family: "Merriweather", serif;
+    font-size: 1.5rem;
+    color: #F5DEB3 !important;
+}
+
+.navbar-nav .nav-link {
+    font-family: "Georgia", serif;
+    font-size: 1.2rem;
+    color: #F5DEB3 !important;
+}
+
+
+.card {
+    background-color: #FAF3E0;
+    border: 1px solid #C4A484;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 .valid.modified:not([type=checkbox]) {
@@ -66,3 +120,9 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+/* Footer styling */
+footer {
+    font-family: "Merriweather", serif;
+    font-size: 0.9rem;
+}

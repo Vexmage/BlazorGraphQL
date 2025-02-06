@@ -2,18 +2,21 @@
 
 <PageTitle>BlazorGraphQL</PageTitle>
 
-<div class="page">
-    <div class="sidebar">
+<div class="d-flex flex-column min-vh-100">
+    <!-- Navbar -->
+    <div>
         <NavMenu />
     </div>
 
-    <main>
-        <div class="top-row px-4">
-            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
-        </div>
-
-        <article class="content px-4">
+    <!-- Main Content -->
+    <main class="flex-grow-1 py-4 px-3" style="background-color: #F4EAD5;">
+        <article class="container">
             @Body
         </article>
     </main>
+
+    <!-- Footer -->
+    <footer class="text-center p-3" style="background-color: #5D4037; color: #F5DEB3;">
+        <p>© 2025 BlazorGraphQL - All rights reserved.</p>
+    </footer>
 </div>

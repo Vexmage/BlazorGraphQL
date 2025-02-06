@@ -1,24 +1,33 @@
 ﻿@page "/books"
 @inject HttpClient Http
 
-<h3>📚 Book List</h3>
+<h2 class="text-center mt-4">📚 Book Collection</h2>
 
 @if (books == null)
 {
-    <p>Loading...</p>
+    <p class="text-center text-muted">Loading...</p>
 }
 else if (!books.Any())
 {
-    <p>No books found.</p>
+    <p class="text-center text-muted">No books found.</p>
 }
 else
 {
-    <ul>
-        @foreach (var book in books)
-        {
-            <li>@book.Title by @book.Author</li>
-        }
-    </ul>
+    <div class="container mt-4">
+        <div class="row">
+            @foreach (var book in books)
+            {
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">@book.Title</h5>
+                            <p class="card-text text-muted">by @book.Author</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
 }
 
 @code {

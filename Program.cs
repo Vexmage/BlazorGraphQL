@@ -2,6 +2,9 @@ using BlazorGraphQL.Data;
 using BlazorGraphQL.GraphQL;
 using HotChocolate.AspNetCore;
 using HotChocolate.AspNetCore.Playground;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore.Migrations;
+using Microsoft.EntityFrameworkCore.Update;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,8 +22,6 @@ builder.Services.AddCors(options =>
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlite("Data Source=books.db"));
 
 builder.Services
     .AddGraphQLServer()
@@ -38,6 +39,12 @@ builder.Services
 
 builder.Services.AddScoped(sp =>
     new HttpClient { BaseAddress = new Uri(builder.Configuration["ApiBaseUrl"] ?? "http://localhost:5206/") });
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+{
+    options.UseSqlite("Data Source=books.db");
+    options.ReplaceService<IMigrationsSqlGenerator, SqliteMigrationsSqlGeneratorNoLock>();
+});
 
 var app = builder.Build();
 
