@@ -9,15 +9,12 @@ namespace BlazorGraphQL.GraphQL
 {
     public class BookQuery
     {
-        [UseProjection]
         [UseFiltering]
         [UseSorting]
-        public IQueryable<Book> GetBooks([Service] IDbContextFactory<AppDbContext> dbContextFactory)
+        public async Task<List<Book>> GetBooksAsync([Service] IDbContextFactory<AppDbContext> dbContextFactory)
         {
             using var context = dbContextFactory.CreateDbContext();
-            return context.Books.AsQueryable();
+            return await context.Books.ToListAsync();
         }
-
-
     }
 }

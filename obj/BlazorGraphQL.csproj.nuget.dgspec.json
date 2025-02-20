@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\BlazorGraphQL.csproj": {}
+    "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\BlazorGraphQL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\BlazorGraphQL.csproj": {
+    "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\BlazorGraphQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\BlazorGraphQL.csproj",
+        "projectUniqueName": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\BlazorGraphQL.csproj",
         "projectName": "BlazorGraphQL",
-        "projectPath": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\BlazorGraphQL.csproj",
+        "projectPath": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\BlazorGraphQL.csproj",
         "packagesPath": "C:\\Users\\namxe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\",
+        "outputPath": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

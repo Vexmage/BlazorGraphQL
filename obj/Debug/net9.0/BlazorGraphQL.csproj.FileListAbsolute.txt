@@ -200,4 +200,3 @@ C:\Users\namxe\documents\devel\BlazorGraphQL\obj\Debug\net9.0\refint\BlazorGraph
 C:\Users\namxe\documents\devel\BlazorGraphQL\obj\Debug\net9.0\BlazorGraphQL.pdb
 C:\Users\namxe\documents\devel\BlazorGraphQL\obj\Debug\net9.0\BlazorGraphQL.genruntimeconfig.cache
 C:\Users\namxe\documents\devel\BlazorGraphQL\obj\Debug\net9.0\ref\BlazorGraphQL.dll
-C:\Users\namxe\Documents\Devel\BlazorGraphQL\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

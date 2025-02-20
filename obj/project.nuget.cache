@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E6vdPcE0YNg=",
+  "dgSpecHash": "EwN63RDP8DI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\BlazorGraphQL.csproj",
+  "projectFilePath": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\BlazorGraphQL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\namxe\\.nuget\\packages\\chillicream.nitro.app\\23.0.4\\chillicream.nitro.app.23.0.4.nupkg.sha512",
     "C:\\Users\\namxe\\.nuget\\packages\\greendonut\\15.0.1\\greendonut.15.0.1.nupkg.sha512",

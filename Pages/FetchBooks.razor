@@ -1,4 +1,6 @@
-﻿@page "/books"
+﻿@using BlazorGraphQL.Models
+
+@page "/books"
 @inject HttpClient Http
 
 <h2 class="text-center mt-4">📚 Book Collection</h2>
@@ -22,6 +24,21 @@ else
                         <div class="card-body">
                             <h5 class="card-title">@book.Title</h5>
                             <p class="card-text text-muted">by @book.Author</p>
+                            <p><strong>Category:</strong> @book.Category</p>
+                            <p><strong>Status:</strong> @book.Status</p>
+
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar"
+                                 style="width: @(book.Progress > 0 ? book.Progress : 1)%;" 
+                                 aria-valuenow="@book.Progress"
+                                 aria-valuemin="0"
+                                 aria-valuemax="100">
+                                @($"{book.Progress}%")
+                            </div>
+                        </div>
+
+
+                            <button class="btn btn-sm btn-danger mt-2" @onclick="() => DeleteBook(book.Id)">🗑 Delete</button>
                         </div>
                     </div>
                 </div>
@@ -45,6 +62,10 @@ else
                         id
                         title
                         author
+                        category
+                        status
+                        progress
+                        reflectionNotes
                     }
                 }"
             };
@@ -61,6 +82,32 @@ else
         }
     }
 
+    private async Task DeleteBook(int bookId)
+    {
+        var mutation = new
+        {
+            query = $@"
+            mutation {{
+                deleteBook(id: {bookId}) {{
+                    id
+                }}
+            }}"
+        };
+
+        try
+        {
+            var response = await Http.PostAsJsonAsync("graphql", mutation);
+            response.EnsureSuccessStatusCode();
+
+            // ✅ Ensure UI updates properly after deletion
+            books = books?.Where(b => b.Id != bookId).ToList();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error deleting book: {ex.Message}");
+        }
+    }
+
     public class GraphQLResponse
     {
         public BooksData? Data { get; set; }
@@ -69,12 +116,5 @@ else
     public class BooksData
     {
         public List<Book> Books { get; set; } = new();
-    }
-
-    public class Book
-    {
-        public int Id { get; set; }
-        public string Title { get; set; } = string.Empty;
-        public string Author { get; set; } = string.Empty;
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s3fYyFULytBSSnJIkoz+6X8QUWf3ls9AGCi5ngXphB0=",
+  "Hash": "ZSpImGFFwi5Gibcpm13e3/egRL3xfl+VT6LJkppFv9U=",
   "Source": "BlazorGraphQL",
   "BasePath": "_content/BlazorGraphQL",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BlazorGraphQL\\wwwroot",
       "Source": "BlazorGraphQL",
-      "ContentRoot": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\",
       "BasePath": "_content/BlazorGraphQL",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\04dq8vc3j2-cmapd0fi15.gz",
+      "Identity": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\04dq8vc3j2-cmapd0fi15.gz",
       "SourceId": "BlazorGraphQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BlazorGraphQL",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min#[.{fingerprint=cmapd0fi15}]?.css.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "RelatedAsset": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "qvz7hczgpc",
       "Integrity": "ZkI1/dKtx7cv+T8mJHA/4zRJzY3H+i9h3I+lQMlQ5/I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+      "OriginalItemSpec": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\14h9q5t606-p9dftn1rag.gz",
+      "Identity": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\14h9q5t606-p9dftn1rag.gz",
       "SourceId": "BlazorGraphQL",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BlazorGraphQL",
       "RelativePath": "BlazorGraphQL#[.{fingerprint=p9dftn1rag}]!.bundle.scp.css.gz",
       "AssetKind": "All",
@@ -49,20 +49,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BlazorGraphQL.bundle.scp.css",
+      "RelatedAsset": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BlazorGraphQL.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "jc2ov5698z",
       "Integrity": "43SPrkZUx7YMmj1RZ0ZLTONQ1Tdh9A7+edTbyjBljnc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BlazorGraphQL.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BlazorGraphQL.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\35b5fb97pf-p9dftn1rag.gz",
+      "Identity": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\35b5fb97pf-p9dftn1rag.gz",
       "SourceId": "BlazorGraphQL",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BlazorGraphQL",
       "RelativePath": "BlazorGraphQL#[.{fingerprint=p9dftn1rag}]?.styles.css.gz",
       "AssetKind": "All",
@@ -70,20 +70,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\bundle\\BlazorGraphQL.styles.css",
+      "RelatedAsset": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\bundle\\BlazorGraphQL.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "jc2ov5698z",
       "Integrity": "43SPrkZUx7YMmj1RZ0ZLTONQ1Tdh9A7+edTbyjBljnc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\bundle\\BlazorGraphQL.styles.css"
+      "OriginalItemSpec": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\bundle\\BlazorGraphQL.styles.css"
     },
     {
-      "Identity": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\afztphdfzl-8inm30yfxf.gz",
+      "Identity": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\afztphdfzl-8inm30yfxf.gz",
       "SourceId": "BlazorGraphQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BlazorGraphQL",
       "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint=8inm30yfxf}]?.map.gz",
       "AssetKind": "All",
@@ -91,20 +91,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "RelatedAsset": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "m532s4naxw",
       "Integrity": "epiz+IkftKdCVrNwM3M3b4/Co3mxoqDpjOfMrHfv/7E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\b76ivrjk01-bpk8xqwxhs.gz",
+      "Identity": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\b76ivrjk01-bpk8xqwxhs.gz",
       "SourceId": "BlazorGraphQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BlazorGraphQL",
       "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint=bpk8xqwxhs}]?.css.gz",
       "AssetKind": "All",
@@ -112,20 +112,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "RelatedAsset": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "li2ohn2azb",
       "Integrity": "vS+1ufj92SdpGYtqXPqzcZfZweLNck5DdvtrYoo0Ruc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\bootstrap\\bootstrap.min.css"
+      "OriginalItemSpec": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\hv0mxme4bd-wk8x8xm0ah.gz",
+      "Identity": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\hv0mxme4bd-wk8x8xm0ah.gz",
       "SourceId": "BlazorGraphQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BlazorGraphQL",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint=wk8x8xm0ah}]?.otf.gz",
       "AssetKind": "All",
@@ -133,20 +133,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "RelatedAsset": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "gzw6z059fx",
       "Integrity": "hIC7IZDzsN/8/x7Q4PWDuy8dGV5BpkpIOTA6gK9OXok=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+      "OriginalItemSpec": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\is4o348mmg-sjnzgf7e1h.gz",
+      "Identity": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\is4o348mmg-sjnzgf7e1h.gz",
       "SourceId": "BlazorGraphQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BlazorGraphQL",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint=sjnzgf7e1h}]?.svg.gz",
       "AssetKind": "All",
@@ -154,20 +154,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "RelatedAsset": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "t673mz4ep7",
       "Integrity": "27Y8oN5HwPm3Lnq4ndc6QKUgTo4gMMgp80Rsx7BJueo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+      "OriginalItemSpec": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\optdjj5p1z-5bzwdl5l6x.gz",
+      "Identity": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\optdjj5p1z-5bzwdl5l6x.gz",
       "SourceId": "BlazorGraphQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BlazorGraphQL",
       "RelativePath": "css/open-iconic/README#[.{fingerprint=5bzwdl5l6x}]?.md.gz",
       "AssetKind": "All",
@@ -175,20 +175,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\README.md",
+      "RelatedAsset": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\README.md",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "jbzbw5vlik",
       "Integrity": "cfRN4Q9ELe7iE5XSAxcqFpH53WR0Fjin0dru915oq0Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\README.md"
+      "OriginalItemSpec": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\wge0gjxja0-q3a9zvtnm7.gz",
+      "Identity": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\wge0gjxja0-q3a9zvtnm7.gz",
       "SourceId": "BlazorGraphQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BlazorGraphQL",
       "RelativePath": "css/site#[.{fingerprint=q3a9zvtnm7}]?.css.gz",
       "AssetKind": "All",
@@ -196,20 +196,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\site.css",
+      "RelatedAsset": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "arjghabm77",
       "Integrity": "+u7DjykzFJjy+Y0AZyTNAE2gKlTg99TQdB3KMDHeFH4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\site.css"
+      "OriginalItemSpec": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\bundle\\BlazorGraphQL.styles.css",
+      "Identity": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\bundle\\BlazorGraphQL.styles.css",
       "SourceId": "BlazorGraphQL",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorGraphQL",
       "RelativePath": "BlazorGraphQL#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -224,13 +224,13 @@
       "Integrity": "E0Y/aY9EDsO+56/xEAI5DdBNenMFEG857vbpXUQSMao=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\bundle\\BlazorGraphQL.styles.css"
+      "OriginalItemSpec": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\bundle\\BlazorGraphQL.styles.css"
     },
     {
-      "Identity": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BlazorGraphQL.bundle.scp.css",
+      "Identity": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BlazorGraphQL.bundle.scp.css",
       "SourceId": "BlazorGraphQL",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorGraphQL",
       "RelativePath": "BlazorGraphQL#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -245,13 +245,13 @@
       "Integrity": "E0Y/aY9EDsO+56/xEAI5DdBNenMFEG857vbpXUQSMao=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BlazorGraphQL.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BlazorGraphQL.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorGraphQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\",
       "BasePath": "_content/BlazorGraphQL",
       "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorGraphQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\",
       "BasePath": "_content/BlazorGraphQL",
       "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -290,136 +290,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "BlazorGraphQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\",
-      "BasePath": "_content/BlazorGraphQL",
-      "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "cmapd0fi15",
-      "Integrity": "BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
-      "SourceId": "BlazorGraphQL",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\",
-      "BasePath": "_content/BlazorGraphQL",
-      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.eot",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "0uw8dim9nl",
-      "Integrity": "OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
-    },
-    {
-      "Identity": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
-      "SourceId": "BlazorGraphQL",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\",
-      "BasePath": "_content/BlazorGraphQL",
-      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.otf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "wk8x8xm0ah",
-      "Integrity": "sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
-    },
-    {
-      "Identity": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
-      "SourceId": "BlazorGraphQL",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\",
-      "BasePath": "_content/BlazorGraphQL",
-      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "sjnzgf7e1h",
-      "Integrity": "+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
-    },
-    {
-      "Identity": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
-      "SourceId": "BlazorGraphQL",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\",
-      "BasePath": "_content/BlazorGraphQL",
-      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.ttf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ll5grcv8wv",
-      "Integrity": "p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
-    },
-    {
-      "Identity": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
-      "SourceId": "BlazorGraphQL",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\",
-      "BasePath": "_content/BlazorGraphQL",
-      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.woff",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "h4d0pazwgy",
-      "Integrity": "cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
-    },
-    {
-      "Identity": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "BlazorGraphQL",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\",
       "BasePath": "_content/BlazorGraphQL",
       "RelativePath": "css/open-iconic/FONT-LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -437,10 +311,136 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BlazorGraphQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\",
+      "BasePath": "_content/BlazorGraphQL",
+      "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cmapd0fi15",
+      "Integrity": "BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "SourceId": "BlazorGraphQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\",
+      "BasePath": "_content/BlazorGraphQL",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.eot",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0uw8dim9nl",
+      "Integrity": "OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Identity": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "SourceId": "BlazorGraphQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\",
+      "BasePath": "_content/BlazorGraphQL",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wk8x8xm0ah",
+      "Integrity": "sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Identity": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "SourceId": "BlazorGraphQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\",
+      "BasePath": "_content/BlazorGraphQL",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sjnzgf7e1h",
+      "Integrity": "+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Identity": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "SourceId": "BlazorGraphQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\",
+      "BasePath": "_content/BlazorGraphQL",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ll5grcv8wv",
+      "Integrity": "p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "SourceId": "BlazorGraphQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\",
+      "BasePath": "_content/BlazorGraphQL",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h4d0pazwgy",
+      "Integrity": "cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "SourceId": "BlazorGraphQL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\",
       "BasePath": "_content/BlazorGraphQL",
       "RelativePath": "css/open-iconic/ICON-LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -458,10 +458,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "BlazorGraphQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\",
       "BasePath": "_content/BlazorGraphQL",
       "RelativePath": "css/open-iconic/README#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -479,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\site.css",
       "SourceId": "BlazorGraphQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\",
       "BasePath": "_content/BlazorGraphQL",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -500,10 +500,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\favicon.png",
       "SourceId": "BlazorGraphQL",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\",
       "BasePath": "_content/BlazorGraphQL",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -524,7 +524,7 @@
   "Endpoints": [
     {
       "Route": "BlazorGraphQL.bundle.scp.css",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\14h9q5t606-p9dftn1rag.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\14h9q5t606-p9dftn1rag.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -547,7 +547,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 09:36:34 GMT"
+          "Value": "Thu, 20 Feb 2025 04:23:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -579,7 +579,7 @@
     },
     {
       "Route": "BlazorGraphQL.bundle.scp.css",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BlazorGraphQL.bundle.scp.css",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BlazorGraphQL.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -600,7 +600,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 09:36:34 GMT"
+          "Value": "Thu, 20 Feb 2025 04:23:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -616,7 +616,7 @@
     },
     {
       "Route": "BlazorGraphQL.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\14h9q5t606-p9dftn1rag.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\14h9q5t606-p9dftn1rag.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -637,7 +637,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 09:36:34 GMT"
+          "Value": "Thu, 20 Feb 2025 04:23:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -661,7 +661,7 @@
     },
     {
       "Route": "BlazorGraphQL.p9dftn1rag.bundle.scp.css",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\14h9q5t606-p9dftn1rag.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\14h9q5t606-p9dftn1rag.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -684,7 +684,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 09:36:34 GMT"
+          "Value": "Thu, 20 Feb 2025 04:23:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -724,7 +724,7 @@
     },
     {
       "Route": "BlazorGraphQL.p9dftn1rag.bundle.scp.css",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BlazorGraphQL.bundle.scp.css",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BlazorGraphQL.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -745,7 +745,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 09:36:34 GMT"
+          "Value": "Thu, 20 Feb 2025 04:23:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -769,7 +769,7 @@
     },
     {
       "Route": "BlazorGraphQL.p9dftn1rag.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\14h9q5t606-p9dftn1rag.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\14h9q5t606-p9dftn1rag.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -790,7 +790,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 09:36:34 GMT"
+          "Value": "Thu, 20 Feb 2025 04:23:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -822,7 +822,7 @@
     },
     {
       "Route": "BlazorGraphQL.p9dftn1rag.styles.css",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\35b5fb97pf-p9dftn1rag.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\35b5fb97pf-p9dftn1rag.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -845,7 +845,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 09:36:34 GMT"
+          "Value": "Thu, 20 Feb 2025 04:23:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -885,7 +885,7 @@
     },
     {
       "Route": "BlazorGraphQL.p9dftn1rag.styles.css",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\bundle\\BlazorGraphQL.styles.css",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\bundle\\BlazorGraphQL.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -906,7 +906,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 09:36:34 GMT"
+          "Value": "Thu, 20 Feb 2025 04:23:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -930,7 +930,7 @@
     },
     {
       "Route": "BlazorGraphQL.p9dftn1rag.styles.css.gz",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\35b5fb97pf-p9dftn1rag.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\35b5fb97pf-p9dftn1rag.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -951,7 +951,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 09:36:34 GMT"
+          "Value": "Thu, 20 Feb 2025 04:23:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -983,7 +983,7 @@
     },
     {
       "Route": "BlazorGraphQL.styles.css",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\35b5fb97pf-p9dftn1rag.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\35b5fb97pf-p9dftn1rag.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1006,7 +1006,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 09:36:34 GMT"
+          "Value": "Thu, 20 Feb 2025 04:23:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1038,7 +1038,7 @@
     },
     {
       "Route": "BlazorGraphQL.styles.css",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\bundle\\BlazorGraphQL.styles.css",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\scopedcss\\bundle\\BlazorGraphQL.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1059,7 +1059,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 09:36:34 GMT"
+          "Value": "Thu, 20 Feb 2025 04:23:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1075,7 +1075,7 @@
     },
     {
       "Route": "BlazorGraphQL.styles.css.gz",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\35b5fb97pf-p9dftn1rag.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\35b5fb97pf-p9dftn1rag.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1096,7 +1096,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 09:36:34 GMT"
+          "Value": "Thu, 20 Feb 2025 04:23:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1120,7 +1120,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\b76ivrjk01-bpk8xqwxhs.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\b76ivrjk01-bpk8xqwxhs.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1183,7 +1183,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1228,7 +1228,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.bpk8xqwxhs.css.gz",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\b76ivrjk01-bpk8xqwxhs.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\b76ivrjk01-bpk8xqwxhs.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1281,7 +1281,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\b76ivrjk01-bpk8xqwxhs.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\b76ivrjk01-bpk8xqwxhs.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1336,7 +1336,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1373,7 +1373,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\afztphdfzl-8inm30yfxf.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\afztphdfzl-8inm30yfxf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1436,7 +1436,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1481,7 +1481,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map.gz",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\afztphdfzl-8inm30yfxf.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\afztphdfzl-8inm30yfxf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1534,7 +1534,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.gz",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\b76ivrjk01-bpk8xqwxhs.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\b76ivrjk01-bpk8xqwxhs.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1579,7 +1579,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\afztphdfzl-8inm30yfxf.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\afztphdfzl-8inm30yfxf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1634,7 +1634,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1671,7 +1671,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map.gz",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\afztphdfzl-8inm30yfxf.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\afztphdfzl-8inm30yfxf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1715,8 +1715,90 @@
       ]
     },
     {
+      "Route": "css/open-iconic/FONT-LICENSE",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4103"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 08:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/FONT-LICENSE.48tmkg660f",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4103"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 08:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "48tmkg660f"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/FONT-LICENSE"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI="
+        }
+      ]
+    },
+    {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.cmapd0fi15.css",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\04dq8vc3j2-cmapd0fi15.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\04dq8vc3j2-cmapd0fi15.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1779,7 +1861,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.cmapd0fi15.css",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1824,7 +1906,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.cmapd0fi15.css.gz",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\04dq8vc3j2-cmapd0fi15.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\04dq8vc3j2-cmapd0fi15.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1877,7 +1959,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\04dq8vc3j2-cmapd0fi15.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\04dq8vc3j2-cmapd0fi15.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1932,7 +2014,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1969,7 +2051,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.css.gz",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\04dq8vc3j2-cmapd0fi15.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\04dq8vc3j2-cmapd0fi15.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2014,7 +2096,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.0uw8dim9nl.eot",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2059,7 +2141,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.eot",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2096,7 +2178,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.h4d0pazwgy.woff",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2141,7 +2223,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.ll5grcv8wv.ttf",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2186,7 +2268,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.otf",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\hv0mxme4bd-wk8x8xm0ah.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\hv0mxme4bd-wk8x8xm0ah.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2241,7 +2323,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.otf",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2278,7 +2360,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.otf.gz",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\hv0mxme4bd-wk8x8xm0ah.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\hv0mxme4bd-wk8x8xm0ah.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2323,7 +2405,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.sjnzgf7e1h.svg",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\is4o348mmg-sjnzgf7e1h.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\is4o348mmg-sjnzgf7e1h.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2386,7 +2468,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.sjnzgf7e1h.svg",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2431,7 +2513,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.sjnzgf7e1h.svg.gz",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\is4o348mmg-sjnzgf7e1h.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\is4o348mmg-sjnzgf7e1h.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2484,7 +2566,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.svg",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\is4o348mmg-sjnzgf7e1h.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\is4o348mmg-sjnzgf7e1h.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2539,7 +2621,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.svg",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2576,7 +2658,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.svg.gz",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\is4o348mmg-sjnzgf7e1h.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\is4o348mmg-sjnzgf7e1h.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2621,7 +2703,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.ttf",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2658,7 +2740,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.wk8x8xm0ah.otf",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\hv0mxme4bd-wk8x8xm0ah.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\hv0mxme4bd-wk8x8xm0ah.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2721,7 +2803,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.wk8x8xm0ah.otf",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2766,7 +2848,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.wk8x8xm0ah.otf.gz",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\hv0mxme4bd-wk8x8xm0ah.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\hv0mxme4bd-wk8x8xm0ah.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2819,7 +2901,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.woff",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2855,90 +2937,8 @@
       ]
     },
     {
-      "Route": "css/open-iconic/FONT-LICENSE",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4103"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 08:46:26 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI="
-        }
-      ]
-    },
-    {
-      "Route": "css/open-iconic/FONT-LICENSE.48tmkg660f",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4103"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 08:46:26 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "48tmkg660f"
-        },
-        {
-          "Name": "label",
-          "Value": "css/open-iconic/FONT-LICENSE"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI="
-        }
-      ]
-    },
-    {
       "Route": "css/open-iconic/ICON-LICENSE",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2975,7 +2975,7 @@
     },
     {
       "Route": "css/open-iconic/ICON-LICENSE.4dwjve0o0b",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3020,7 +3020,7 @@
     },
     {
       "Route": "css/open-iconic/README.5bzwdl5l6x.md",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\optdjj5p1z-5bzwdl5l6x.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\optdjj5p1z-5bzwdl5l6x.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3083,7 +3083,7 @@
     },
     {
       "Route": "css/open-iconic/README.5bzwdl5l6x.md",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\README.md",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\README.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3128,7 +3128,7 @@
     },
     {
       "Route": "css/open-iconic/README.5bzwdl5l6x.md.gz",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\optdjj5p1z-5bzwdl5l6x.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\optdjj5p1z-5bzwdl5l6x.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3181,7 +3181,7 @@
     },
     {
       "Route": "css/open-iconic/README.md",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\optdjj5p1z-5bzwdl5l6x.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\optdjj5p1z-5bzwdl5l6x.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3236,7 +3236,7 @@
     },
     {
       "Route": "css/open-iconic/README.md",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\README.md",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\open-iconic\\README.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3273,7 +3273,7 @@
     },
     {
       "Route": "css/open-iconic/README.md.gz",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\optdjj5p1z-5bzwdl5l6x.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\optdjj5p1z-5bzwdl5l6x.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3318,7 +3318,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\wge0gjxja0-q3a9zvtnm7.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\wge0gjxja0-q3a9zvtnm7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3373,7 +3373,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3410,7 +3410,7 @@
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\wge0gjxja0-q3a9zvtnm7.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\wge0gjxja0-q3a9zvtnm7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3455,7 +3455,7 @@
     },
     {
       "Route": "css/site.q3a9zvtnm7.css",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\wge0gjxja0-q3a9zvtnm7.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\wge0gjxja0-q3a9zvtnm7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3518,7 +3518,7 @@
     },
     {
       "Route": "css/site.q3a9zvtnm7.css",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3563,7 +3563,7 @@
     },
     {
       "Route": "css/site.q3a9zvtnm7.css.gz",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\wge0gjxja0-q3a9zvtnm7.gz",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\obj\\Debug\\net9.0\\compressed\\wge0gjxja0-q3a9zvtnm7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3616,7 +3616,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3661,7 +3661,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
