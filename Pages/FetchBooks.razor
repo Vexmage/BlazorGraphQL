@@ -16,35 +16,38 @@ else if (!books.Any())
 else
 {
     <div class="container mt-4">
-        <div class="row">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             @foreach (var book in books)
             {
-                <div class="col-md-4 mb-3">
-                    <div class="card shadow-sm">
+                <div class="col">
+                    <div class="card h-100 shadow-lg border-0">
                         <div class="card-body">
-                            <h5 class="card-title">@book.Title</h5>
-                            <p class="card-text text-muted">by @book.Author</p>
-                            <p><strong>Category:</strong> @book.Category</p>
-                            <p><strong>Status:</strong> @book.Status</p>
+                            <h5 class="card-title fw-bold text-primary">@book.Title</h5>
+                            <p class="card-text text-muted"><i>by @book.Author</i></p>
+                            <p><span class="badge bg-info">@book.Category</span></p>
+                            <p><span class="badge bg-warning">@book.Status</span></p>
 
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar"
-                                 style="width: @(book.Progress > 0 ? book.Progress : 1)%;" 
-                                 aria-valuenow="@book.Progress"
-                                 aria-valuemin="0"
-                                 aria-valuemax="100">
-                                @($"{book.Progress}%")
+                            <div class="progress mt-3">
+                                <div class="progress-bar bg-success" role="progressbar"
+                                     style="@($"width: {Math.Max(book.Progress, 5)}%; min-width: 5px;")"
+                                     aria-valuenow="@book.Progress"
+                                     aria-valuemin="0"
+                                     aria-valuemax="100">
+                                    @($"{book.Progress * 100}%")
+                                </div>
                             </div>
                         </div>
-
-
-                            <button class="btn btn-sm btn-danger mt-2" @onclick="() => DeleteBook(book.Id)">🗑 Delete</button>
+                        <div class="card-footer text-end bg-light border-0">
+                            <button class="btn btn-outline-danger btn-sm" @onclick="() => DeleteBook(book.Id)">
+                                <i class="bi bi-trash"></i> Delete
+                            </button>
                         </div>
                     </div>
                 </div>
             }
         </div>
     </div>
+
 }
 
 @code {

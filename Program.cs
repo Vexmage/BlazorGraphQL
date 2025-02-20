@@ -6,6 +6,8 @@ using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddBootstrapBlazor();
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>

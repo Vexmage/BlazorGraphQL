@@ -51,6 +51,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "BootstrapBlazor": {
+              "target": "Package",
+              "version": "[9.3.0, )"
+            },
             "HotChocolate.AspNetCore": {
               "target": "Package",
               "version": "[15.0.1, )"
