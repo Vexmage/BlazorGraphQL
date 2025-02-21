@@ -60,17 +60,16 @@ else
             var query = new
             {
                 query = @"
-                {
-                    books {
-                        id
-                        title
-                        author
-                        category
-                        status
-                        progress
-                        reflectionNotes
-                    }
-                }"
+    {
+        books(order: { title: ASC }) {   # Sort books alphabetically
+            id
+            title
+            author
+            category
+            status
+            progress
+        }
+    }"
             };
 
             var response = await Http.PostAsJsonAsync("graphql", query);

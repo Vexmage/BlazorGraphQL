@@ -9,12 +9,22 @@ namespace BlazorGraphQL.GraphQL
 {
     public class BookQuery
     {
+        [UseProjection]
         [UseFiltering]
         [UseSorting]
-        public async Task<List<Book>> GetBooksAsync([Service] IDbContextFactory<AppDbContext> dbContextFactory)
+        public IQueryable<Book> GetBooks([Service] IDbContextFactory<AppDbContext> dbContextFactory)
         {
-            using var context = dbContextFactory.CreateDbContext();
-            return await context.Books.ToListAsync();
+            var context = dbContextFactory.CreateDbContext();
+            return context.Books.AsQueryable();
+        }
+
+        // 🔍 Search for books by title or author
+        public async Task<List<Book>> SearchBooksAsync(string search, [Service] IDbContextFactory<AppDbContext> dbContextFactory)
+        {
+            var context = dbContextFactory.CreateDbContext();
+            return await context.Books
+                .Where(b => b.Title.Contains(search) || b.Author.Contains(search))
+                .ToListAsync();
         }
     }
 }

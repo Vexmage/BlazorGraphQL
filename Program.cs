@@ -1,10 +1,20 @@
 ﻿using BlazorGraphQL.Data;
 using BlazorGraphQL.GraphQL;
 using HotChocolate.AspNetCore;
+using HotChocolate.AspNetCore.Playground;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+
+
+
 using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
+builder.Logging.SetMinimumLevel(LogLevel.Debug);
 
 builder.Services.AddBootstrapBlazor();
 
@@ -27,6 +37,7 @@ builder.Services
     .AddMutationType<BookMutation>()
     .AddFiltering()
     .AddSorting()
+    .AddProjections()
     .ModifyOptions(o =>
     {
         o.RemoveUnreachableTypes = true;
@@ -55,6 +66,15 @@ app.UseCors("AllowAll");
 app.UseStaticFiles();
 
 app.MapGraphQL();
+
+
+app.UsePlayground(new PlaygroundOptions
+{
+    QueryPath = "/graphql",
+    Path = "/playground"
+});
+
+
 
 app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");

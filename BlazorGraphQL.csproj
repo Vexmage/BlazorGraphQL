@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="BootstrapBlazor" Version="9.3.0" />
-    <PackageReference Include="HotChocolate.AspNetCore" Version="15.0.1" />
+    <PackageReference Include="HotChocolate.AspNetCore" Version="15.0.3" />
     <PackageReference Include="HotChocolate.AspNetCore.Playground" Version="10.5.5" />
     <PackageReference Include="HotChocolate.Data" Version="15.0.1" />
     <PackageReference Include="HotChocolate.Data.EntityFramework" Version="15.0.1" />

@@ -57,7 +57,7 @@
             },
             "HotChocolate.AspNetCore": {
               "target": "Package",
-              "version": "[15.0.1, )"
+              "version": "[15.0.3, )"
             },
             "HotChocolate.AspNetCore.Playground": {
               "target": "Package",

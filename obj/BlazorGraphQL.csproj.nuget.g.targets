@@ -11,6 +11,6 @@
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.analyzers\9.0.1\buildTransitive\netstandard2.0\Microsoft.AspNetCore.Components.Analyzers.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.analyzers\9.0.1\buildTransitive\netstandard2.0\Microsoft.AspNetCore.Components.Analyzers.targets')" />
     <Import Project="$(NuGetPackageRoot)hotchocolate.data\15.0.1\build\HotChocolate.Data.targets" Condition="Exists('$(NuGetPackageRoot)hotchocolate.data\15.0.1\build\HotChocolate.Data.targets')" />
     <Import Project="$(NuGetPackageRoot)hotchocolate.data.entityframework\15.0.1\build\HotChocolate.Data.EntityFramework.targets" Condition="Exists('$(NuGetPackageRoot)hotchocolate.data.entityframework\15.0.1\build\HotChocolate.Data.EntityFramework.targets')" />
-    <Import Project="$(NuGetPackageRoot)hotchocolate.aspnetcore\15.0.1\build\HotChocolate.AspNetCore.targets" Condition="Exists('$(NuGetPackageRoot)hotchocolate.aspnetcore\15.0.1\build\HotChocolate.AspNetCore.targets')" />
+    <Import Project="$(NuGetPackageRoot)hotchocolate.aspnetcore\15.0.3\build\HotChocolate.AspNetCore.targets" Condition="Exists('$(NuGetPackageRoot)hotchocolate.aspnetcore\15.0.3\build\HotChocolate.AspNetCore.targets')" />
   </ImportGroup>
 </Project>
