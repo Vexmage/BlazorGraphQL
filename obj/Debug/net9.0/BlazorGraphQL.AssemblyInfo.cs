@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorGraphQL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49acc88b937428054f7fd92a7d6bcbd92509c63f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02218c182b04c6e4f903bf66b5a75b608bd642cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorGraphQL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorGraphQL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
