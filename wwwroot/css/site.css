@@ -126,3 +126,47 @@ footer {
     font-family: "Merriweather", serif;
     font-size: 0.9rem;
 }
+
+/* Book Card Styling */
+.book-card {
+    background: #FAF3E0; /* Light parchment background */
+    border: 1px solid #C4A484;
+    border-radius: 12px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+    .book-card:hover {
+        transform: scale(1.03);
+    }
+
+/* Book Tags */
+.book-tag {
+    padding: 6px 10px;
+    font-size: 12px;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+
+/* Progress Bar */
+.progress {
+    height: 10px;
+    border-radius: 5px;
+}
+
+/* Delete Button */
+.delete-button {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.2s ease-in-out;
+}
+
+    .delete-button:hover {
+        background: #c0392b;
+    }
