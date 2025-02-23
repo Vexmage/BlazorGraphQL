@@ -11,15 +11,10 @@ namespace BlazorGraphQL.Data
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         public DbSet<Book> Books { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder options)
+            => options.UseSqlite("Data Source=books.db");
         public DbSet<EfmigrationsLock> EfmigrationsLocks { get; set; } // Ensure it's properly mapped
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlite("Data Source=books.db");
-
-            // Disable migration locking in SQLite
-            optionsBuilder.ReplaceService<IMigrationsSqlGenerator, SqliteMigrationsSqlGeneratorNoLock>();
-        }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
