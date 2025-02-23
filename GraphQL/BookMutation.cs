@@ -7,13 +7,30 @@ namespace BlazorGraphQL.GraphQL
 {
     public class BookMutation
     {
-        public async Task<Book> AddBookAsync(string title, string author, [Service] AppDbContext context)
+        public async Task<Book> AddBookAsync(
+            string title,
+            string author,
+            string category,
+            string status,
+            double progress,
+            int yearPublished,
+            string reflectionNotes,
+            [Service] AppDbContext context)
         {
-            var book = new Book { Title = title, Author = author };
+            var book = new Book
+            {
+                Title = title,
+                Author = author,
+                Category = category,
+                Status = status,
+                Progress = progress,
+                YearPublished = yearPublished,
+                ReflectionNotes = reflectionNotes
+            };
+
             context.Books.Add(book);
-            await context.SaveChangesAsync();  
+            await context.SaveChangesAsync();
             return book;
         }
-
     }
 }

@@ -5,6 +5,52 @@
 
 <h2 class="text-center mt-4">📚 Book Collection</h2>
 
+<!-- Add Book Form -->
+<div class="container mt-3 p-4 border rounded shadow bg-light">
+    <h4 class="mb-3">➕ Add a New Book</h4>
+
+    <div class="mb-2">
+        <label class="form-label">Title</label>
+        <input class="form-control" @bind="newBook.Title" placeholder="Enter book title" required />
+    </div>
+
+    <div class="mb-2">
+        <label class="form-label">Author</label>
+        <input class="form-control" @bind="newBook.Author" placeholder="Enter author name" required />
+    </div>
+
+    <div class="mb-2">
+        <label class="form-label">Category</label>
+        <input class="form-control" @bind="newBook.Category" placeholder="e.g., Programming, Fiction" />
+    </div>
+
+    <div class="mb-2">
+        <label class="form-label">Status</label>
+        <select class="form-select" @bind="newBook.Status">
+            <option value="Wishlist">Wishlist</option>
+            <option value="Reading">Reading</option>
+            <option value="Completed">Completed</option>
+        </select>
+    </div>
+
+    <div class="mb-2">
+        <label class="form-label">Progress (%)</label>
+        <input type="number" class="form-control" @bind="newBook.Progress" min="0" max="1" step="0.01" />
+    </div>
+
+    <div class="mb-2">
+        <label class="form-label">Year Published</label>
+        <input type="number" class="form-control" @bind="newBook.YearPublished" min="1500" max="2100" />
+    </div>
+
+    <div class="mb-2">
+        <label class="form-label">Reflection Notes</label>
+        <textarea class="form-control" @bind="newBook.ReflectionNotes" placeholder="Your thoughts on this book"></textarea>
+    </div>
+
+    <button class="btn btn-success mt-2" @onclick="AddNewBook">➕ Add Book</button>
+</div>
+
 @if (books == null)
 {
     <p class="text-center text-muted">Loading...</p>
@@ -25,13 +71,11 @@ else
                             <h5 class="card-title fw-bold text-primary">@book.Title</h5>
                             <p class="card-text text-muted"><i>by @book.Author</i></p>
 
-                            <!-- Genre Tags -->
                             <div class="mb-2">
                                 <span class="badge book-tag bg-info">@book.Category</span>
                                 <span class="badge book-tag bg-warning">@book.Status</span>
                             </div>
 
-                            <!-- Progress Bar -->
                             <div class="progress mt-3">
                                 <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
                                      role="progressbar"
@@ -44,7 +88,6 @@ else
                             </div>
                         </div>
 
-                        <!-- Delete Button -->
                         <div class="card-footer text-end bg-light border-0">
                             <button class="btn delete-button" @onclick="() => DeleteBook(book.Id)">
                                 ❌ Delete
@@ -55,13 +98,29 @@ else
             }
         </div>
     </div>
-
 }
 
 @code {
     private List<Book>? books;
 
+    // 🔹 Initialize 'newBook' with required properties
+    private Book newBook = new()
+        {
+            Title = "Untitled",
+            Author = "Unknown",
+            Category = "Uncategorized",
+            Status = "Wishlist",
+            Progress = 0.0,
+            YearPublished = DateTime.Now.Year,
+            ReflectionNotes = ""
+        };
+
     protected override async Task OnInitializedAsync()
+    {
+        await LoadBooks();
+    }
+
+    private async Task LoadBooks() // 🔹 Renamed from FetchBooks() to prevent conflicts
     {
         try
         {
@@ -69,7 +128,7 @@ else
             {
                 query = @"
     {
-        books(order: { title: ASC }) {   # Sort books alphabetically
+        books(order: { title: ASC }) {
             id
             title
             author
@@ -92,6 +151,54 @@ else
         }
     }
 
+    private async Task AddNewBook() // 🔹 Renamed from AddBook() to avoid conflicts
+    {
+        var mutation = new
+        {
+            query = $@"
+            mutation {{
+                addBook(title: ""{newBook.Title}"",
+                        author: ""{newBook.Author}"",
+                        category: ""{newBook.Category}"",
+                        status: ""{newBook.Status}"",
+                        progress: {newBook.Progress},
+                        yearPublished: {newBook.YearPublished},
+                        reflectionNotes: ""{newBook.ReflectionNotes}"") {{
+                    id
+                    title
+                    author
+                    category
+                    status
+                    progress
+                }}
+            }}"
+        };
+
+        try
+        {
+            var response = await Http.PostAsJsonAsync("graphql", mutation);
+            response.EnsureSuccessStatusCode();
+
+            // ✅ Reset the form and refresh books list
+            newBook = new()
+                {
+                    Title = "Untitled",
+                    Author = "Unknown",
+                    Category = "Uncategorized",
+                    Status = "Wishlist",
+                    Progress = 0.0,
+                    YearPublished = DateTime.Now.Year,
+                    ReflectionNotes = ""
+                };
+
+            await LoadBooks();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error adding book: {ex.Message}");
+        }
+    }
+
     private async Task DeleteBook(int bookId)
     {
         var mutation = new
@@ -109,7 +216,7 @@ else
             var response = await Http.PostAsJsonAsync("graphql", mutation);
             response.EnsureSuccessStatusCode();
 
-            // ✅ Ensure UI updates properly after deletion
+            // ✅ Update UI after deletion
             books = books?.Where(b => b.Id != bookId).ToList();
         }
         catch (Exception ex)
