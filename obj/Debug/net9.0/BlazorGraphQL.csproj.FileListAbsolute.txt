@@ -300,7 +300,7 @@ C:\Users\namxe\documents\devel\BlazorGraphQL\obj\Debug\net9.0\compressed\04dq8vc
 C:\Users\namxe\documents\devel\BlazorGraphQL\obj\Debug\net9.0\compressed\hv0mxme4bd-wk8x8xm0ah.gz
 C:\Users\namxe\documents\devel\BlazorGraphQL\obj\Debug\net9.0\compressed\is4o348mmg-sjnzgf7e1h.gz
 C:\Users\namxe\documents\devel\BlazorGraphQL\obj\Debug\net9.0\compressed\optdjj5p1z-5bzwdl5l6x.gz
-C:\Users\namxe\documents\devel\BlazorGraphQL\obj\Debug\net9.0\compressed\wge0gjxja0-h5610os2k7.gz
+C:\Users\namxe\documents\devel\BlazorGraphQL\obj\Debug\net9.0\compressed\wge0gjxja0-hz0tslerw2.gz
 C:\Users\namxe\documents\devel\BlazorGraphQL\obj\Debug\net9.0\compressed\35b5fb97pf-p9dftn1rag.gz
 C:\Users\namxe\documents\devel\BlazorGraphQL\obj\Debug\net9.0\compressed\14h9q5t606-p9dftn1rag.gz
 C:\Users\namxe\documents\devel\BlazorGraphQL\obj\Debug\net9.0\staticwebassets.build.json

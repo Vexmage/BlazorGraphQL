@@ -170,3 +170,40 @@ footer {
     .delete-button:hover {
         background: #c0392b;
     }
+
+/* Home Page */
+.home-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #5D4037; /* Deep brown */
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Featured Book */
+.featured-book {
+    background: #FAF3E0;
+    border: 1px solid #C4A484;
+    border-radius: 12px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* Call-to-Action Button */
+.btn-lg {
+    font-size: 18px;
+    padding: 12px 20px;
+}
+
+/* Library & Anti-Library Explanation */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}

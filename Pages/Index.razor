@@ -3,12 +3,17 @@
 @using BlazorGraphQL.Models
 
 <div class="home-container">
-    <h1 class="text-center">📚 Welcome to My Library</h1>
+    <h1 class="text-center">📚 My Library & Anti-Library</h1>
     <p class="text-center subtitle">
-        Organize, track, and explore your book collection effortlessly.
+        "Read books are far less valuable than unread ones. Your library should contain as much of what you do not know as your financial means allow for."
+        <br>— Nassim Nicholas Taleb, *The Black Swan*
     </p>
 
-    <!-- 🔍 Featured Book Section -->
+    <p class="text-center">
+        Welcome to my personal book collection—part **Library**, part **Anti-Library**.
+        The **Library** consists of books I have read and studied, while the **Anti-Library** represents the vast knowledge I have yet to explore.
+    </p>
+
     @if (FeaturedBook is not null)
     {
         <div class="featured-book card">
@@ -76,6 +81,9 @@
 
             var result = await response.Content.ReadFromJsonAsync<GraphQLResponse>();
             FeaturedBook = result?.Data?.Books.FirstOrDefault();
+
+            // Debugging Output
+            Console.WriteLine($"Fetched Book: {FeaturedBook?.Title ?? "No books found"}");
         }
         catch (Exception ex)
         {
