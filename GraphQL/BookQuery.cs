@@ -12,10 +12,18 @@ namespace BlazorGraphQL.GraphQL
         [UseProjection]
         [UseFiltering]
         [UseSorting]
-        public IQueryable<Book> GetBooks([Service] IDbContextFactory<AppDbContext> dbContextFactory)
+        public IQueryable<Book> GetBooks([Service] IDbContextFactory<AppDbContext> dbContextFactory, int? limit = null)
         {
             var context = dbContextFactory.CreateDbContext();
-            return context.Books.AsQueryable();
+
+            var query = context.Books.AsQueryable();
+
+            if (limit.HasValue)
+            {
+                query = query.Take(limit.Value);
+            }
+
+            return query;
         }
 
         // 🔍 Search for books by title or author

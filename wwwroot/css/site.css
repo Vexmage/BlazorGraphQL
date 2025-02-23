@@ -196,6 +196,19 @@ footer {
     padding: 20px;
 }
 
+/* Recently Added Books */
+.list-group {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.list-group-item {
+    background: #FDF5E6;
+    border-left: 5px solid #C4A484;
+}
+
+
 /* Call-to-Action Button */
 .btn-lg {
     font-size: 18px;
