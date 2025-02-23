@@ -10,7 +10,8 @@ namespace BlazorGraphQL.Models
         public required string Title { get; set; }
         public required string Author { get; set; }
 
-        public string Genre { get; set; }
+        public string Genre { get; set; } = "";
+
         public int YearPublished { get; set; }
 
         public string Category { get; set; } = "Uncategorized";

@@ -156,23 +156,26 @@ else
         var mutation = new
         {
             query = $@"
-            mutation {{
-                addBook(title: ""{newBook.Title}"",
-                        author: ""{newBook.Author}"",
-                        category: ""{newBook.Category}"",
-                        status: ""{newBook.Status}"",
-                        progress: {newBook.Progress},
-                        yearPublished: {newBook.YearPublished},
-                        reflectionNotes: ""{newBook.ReflectionNotes}"") {{
-                    id
-                    title
-                    author
-                    category
-                    status
-                    progress
-                }}
-            }}"
+        mutation {{
+            addBook(title: ""{newBook.Title}"",
+                    author: ""{newBook.Author}"",
+                     genre: ""{(string.IsNullOrEmpty(newBook.Genre) ? "" : newBook.Genre)}"",
+                    category: ""{newBook.Category}"",
+                    status: ""{newBook.Status}"",
+                    progress: {newBook.Progress},
+                    yearPublished: {newBook.YearPublished},
+                    reflectionNotes: ""{newBook.ReflectionNotes}"") {{
+                id
+                title
+                author
+                genre
+                category
+                status
+                progress
+            }}
+        }}"
         };
+
 
         try
         {
@@ -216,7 +219,7 @@ else
             var response = await Http.PostAsJsonAsync("graphql", mutation);
             response.EnsureSuccessStatusCode();
 
-            // ✅ Update UI after deletion
+            // Update UI after deletion
             books = books?.Where(b => b.Id != bookId).ToList();
         }
         catch (Exception ex)

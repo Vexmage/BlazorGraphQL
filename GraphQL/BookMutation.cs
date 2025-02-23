@@ -12,6 +12,7 @@ namespace BlazorGraphQL.GraphQL
             string author,
             string category,
             string status,
+            string genre,
             double progress,
             int yearPublished,
             string reflectionNotes,
@@ -21,6 +22,7 @@ namespace BlazorGraphQL.GraphQL
             {
                 Title = title,
                 Author = author,
+                Genre = genre,
                 Category = category,
                 Status = status,
                 Progress = progress,
