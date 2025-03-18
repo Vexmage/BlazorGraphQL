@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GDsqTJUKWbM=",
+  "dgSpecHash": "GDMtPsCysCU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\namxe\\documents\\devel\\BlazorGraphQL\\BlazorGraphQL.csproj",
+  "projectFilePath": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\BlazorGraphQL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\namxe\\.nuget\\packages\\bootstrapblazor\\9.3.0\\bootstrapblazor.9.3.0.nupkg.sha512",
     "C:\\Users\\namxe\\.nuget\\packages\\chillicream.nitro.app\\23.0.4\\chillicream.nitro.app.23.0.4.nupkg.sha512",
