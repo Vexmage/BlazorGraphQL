@@ -79,18 +79,18 @@ else
                             <div class="progress mt-3">
                                 <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
                                      role="progressbar"
-                                     style="@($"width: {Math.Max(book.Progress, 5)}%; min-width: 5px;")"
+                                     style="@($"width: {Math.Clamp(book.Progress * 100, 0, 100)}%; min-width: 5px;")"
                                      aria-valuenow="@book.Progress"
                                      aria-valuemin="0"
                                      aria-valuemax="100">
                                     @($"{book.Progress * 100}%")
                                 </div>
                             </div>
+
                         </div>
 
                         <div class="card-footer text-end bg-light border-0">
                             <button class="btn delete-button" @onclick="() => DeleteBook(book.Id)">
-                                ❌ Delete
                             </button>
                         </div>
                     </div>
@@ -182,7 +182,7 @@ else
             var response = await Http.PostAsJsonAsync("graphql", mutation);
             response.EnsureSuccessStatusCode();
 
-            // ✅ Reset the form and refresh books list
+            // Reset the form and refresh books list
             newBook = new()
                 {
                     Title = "Untitled",
