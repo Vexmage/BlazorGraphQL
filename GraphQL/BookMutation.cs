@@ -34,5 +34,19 @@ namespace BlazorGraphQL.GraphQL
             await context.SaveChangesAsync();
             return book;
         }
+
+        // ✅ **NEW: Delete Book Mutation**
+        public async Task<bool> DeleteBookAsync(int id, [Service] AppDbContext context)
+        {
+            var book = await context.Books.FindAsync(id);
+            if (book == null)
+            {
+                return false; // No book found to delete
+            }
+
+            context.Books.Remove(book);
+            await context.SaveChangesAsync();
+            return true;
+        }
     }
 }

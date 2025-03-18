@@ -204,14 +204,14 @@ else
 
     private async Task DeleteBook(int bookId)
     {
+        Console.WriteLine($"Attempting to delete book with ID: {bookId}");
+
         var mutation = new
         {
             query = $@"
-            mutation {{
-                deleteBook(id: {bookId}) {{
-                    id
-                }}
-            }}"
+        mutation {{
+            deleteBook(id: {bookId})
+        }}"
         };
 
         try
@@ -219,14 +219,14 @@ else
             var response = await Http.PostAsJsonAsync("graphql", mutation);
             response.EnsureSuccessStatusCode();
 
-            // Update UI after deletion
             books = books?.Where(b => b.Id != bookId).ToList();
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Error deleting book: {ex.Message}");
+            Console.WriteLine($"❌ Error deleting book: {ex.Message}");
         }
     }
+
 
     public class GraphQLResponse
     {

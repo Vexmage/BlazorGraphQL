@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{32C15D00-0D47-463C-8984-ED0D6A909981}|BlazorGraphQL.csproj|solutionrelative:pages\\fetchbooks.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{32C15D00-0D47-463C-8984-ED0D6A909981}|BlazorGraphQL.csproj|c:\\users\\namxe\\documents\\devel\\blazorgraphql\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{32C15D00-0D47-463C-8984-ED0D6A909981}|BlazorGraphQL.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{32C15D00-0D47-463C-8984-ED0D6A909981}|BlazorGraphQL.csproj|c:\\users\\namxe\\documents\\devel\\blazorgraphql\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{32C15D00-0D47-463C-8984-ED0D6A909981}|BlazorGraphQL.csproj|solutionrelative:pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{32C15D00-0D47-463C-8984-ED0D6A909981}|BlazorGraphQL.csproj|c:\\users\\namxe\\documents\\devel\\blazorgraphql\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{32C15D00-0D47-463C-8984-ED0D6A909981}|BlazorGraphQL.csproj|solutionrelative:pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32C15D00-0D47-463C-8984-ED0D6A909981}|BlazorGraphQL.csproj|c:\\users\\namxe\\documents\\devel\\blazorgraphql\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{32C15D00-0D47-463C-8984-ED0D6A909981}|BlazorGraphQL.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32C15D00-0D47-463C-8984-ED0D6A909981}|BlazorGraphQL.csproj|c:\\users\\namxe\\documents\\devel\\blazorgraphql\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -90,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,19 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\Pages\\Error.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Error.cshtml",
-              "ToolTip": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\Pages\\Error.cshtml",
-              "RelativeToolTip": "Pages\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T08:15:15.849Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SqliteMigrationsSqlGeneratorNoLock.cs",
               "DocumentMoniker": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\SqliteMigrationsSqlGeneratorNoLock.cs",
               "RelativeDocumentMoniker": "SqliteMigrationsSqlGeneratorNoLock.cs",
@@ -150,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "BookMutation.cs",
               "DocumentMoniker": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\GraphQL\\BookMutation.cs",
               "RelativeDocumentMoniker": "GraphQL\\BookMutation.cs",
@@ -162,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "BookQuery.cs",
               "DocumentMoniker": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\GraphQL\\BookQuery.cs",
               "RelativeDocumentMoniker": "GraphQL\\BookQuery.cs",
@@ -180,14 +168,14 @@
               "RelativeDocumentMoniker": "Pages\\FetchBooks.razor",
               "ToolTip": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\Pages\\FetchBooks.razor",
               "RelativeToolTip": "Pages\\FetchBooks.razor",
-              "ViewState": "AgIAADgAAAAAAAAAAAAWwFEAAABvAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAmwFMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-20T03:32:51.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "Pages\\Index.razor",
@@ -199,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Models\\Book.cs",
@@ -223,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -235,7 +223,32 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAKYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-23T09:08:34.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\Pages\\Error.cshtml",
+              "RelativeToolTip": "Pages\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-18T08:15:15.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -259,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\App.razor",
               "RelativeDocumentMoniker": "App.razor",
@@ -268,18 +281,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-20T03:31:56.059Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAYwMYAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-23T09:08:34.406Z"
             },
             {
               "$type": "Document",
