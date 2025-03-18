@@ -138,8 +138,7 @@
               "RelativeToolTip": "GraphQL\\BookMutation.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAA2wBwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T03:32:06.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T03:32:06.107Z"
             },
             {
               "$type": "Document",
@@ -151,8 +150,7 @@
               "RelativeToolTip": "GraphQL\\BookQuery.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAADwvyYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T03:46:02.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T03:46:02.124Z"
             },
             {
               "$type": "Document",
@@ -162,7 +160,7 @@
               "RelativeDocumentMoniker": "Pages\\FetchBooks.razor",
               "ToolTip": "C:\\Users\\namxe\\Documents\\Devel\\BlazorGraphQL\\Pages\\FetchBooks.razor",
               "RelativeToolTip": "Pages\\FetchBooks.razor",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAmwK0AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-20T03:32:51.363Z",
               "EditorCaption": ""
@@ -189,8 +187,7 @@
               "RelativeToolTip": "Models\\Book.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T03:32:34.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T03:32:34.169Z"
             },
             {
               "$type": "Document",

@@ -35,7 +35,7 @@
 
     <div class="mb-2">
         <label class="form-label">Progress (%)</label>
-        <input type="number" class="form-control" @bind="newBook.Progress" min="0" max="1" step="0.01" />
+        <input type="number" class="form-control" @bind="newBook.Progress" min="0" max="100" step="1" />
     </div>
 
     <div class="mb-2">
@@ -162,7 +162,7 @@ else
                      genre: ""{(string.IsNullOrEmpty(newBook.Genre) ? "" : newBook.Genre)}"",
                     category: ""{newBook.Category}"",
                     status: ""{newBook.Status}"",
-                    progress: {newBook.Progress},
+                    progress: {newBook.Progress / 100},
                     yearPublished: {newBook.YearPublished},
                     reflectionNotes: ""{newBook.ReflectionNotes}"") {{
                 id
