@@ -51,3 +51,56 @@ BlazorGraphQL integrates **GraphQL** using HotChocolate, providing an efficient 
 ```bash
 git clone https://github.com/your-username/BlazorGraphQL.git
 cd BlazorGraphQL
+
+### 2️⃣ Restore Dependencies
+
+```bash
+dotnet restore
+
+### 3️⃣ Run Migrations
+
+```bash
+dotnet ef database update
+
+### 4️⃣ Run the App
+
+```bash
+dotnet run
+
+### 📜 Sample GraphQL Queries
+
+#### 📚 Fetch Books
+
+query {
+  books {
+    id
+    title
+    author
+    category
+    status
+    progress
+  }
+}
+
+#### ➕ Add a New Book
+
+mutation {
+  addBook(
+    title: "The Pragmatic Programmer",
+    author: "Andy Hunt",
+    genre: "Tech",
+    category: "Programming",
+    status: "Wishlist",
+    progress: 0.2,
+    yearPublished: 1999,
+    reflectionNotes: "Looking forward to this one!"
+  ) {
+    id
+    title
+  }
+}
+
+
+## 📖 About the Creator
+
+Built by Joel Southall — software developer & philosophy graduate. This project draws on themes of lifelong learning, digital literacy, and classical aesthetics.
