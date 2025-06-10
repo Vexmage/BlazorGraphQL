@@ -51,9 +51,16 @@ a, .btn-link {
     background-color: #5D4037; /* Rich brown */
 }
 
+.navbar .container-fluid {
+    display: flex;
+    align-items: center;
+}
+
 .navbar-brand {
     font-family: "Merriweather", serif;
     color: #F5DEB3 !important; /* Warm wheat */
+    display: flex !important;
+    align-items: center !important;
 }
 
 .navbar a {
@@ -67,10 +74,20 @@ a, .btn-link {
     color: #F5DEB3 !important;
 }
 
+
+.navbar-brand img {
+        margin-right: 0.5rem;
+        height: 40px; /* or whatever fits your design */
+}
+
 .navbar-nav .nav-link {
     font-family: "Georgia", serif;
     font-size: 1.2rem;
     color: #F5DEB3 !important;
+    display: flex;
+    align-items: center;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
 }
 
 

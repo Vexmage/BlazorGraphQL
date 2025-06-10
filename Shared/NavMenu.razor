@@ -1,11 +1,19 @@
-﻿<div class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(90deg, #4E342E, #5D4037);">
+﻿@* NavMenu.razor *@
+<div class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(90deg, #4E342E, #5D4037);">
     <div class="container-fluid">
-        <img src="images/bookend-logo.png" alt="BlazorGraphQL logo" style="max-height: 50px;" class="mb-4" />
-        <a class="navbar-brand" href="">BlazorGraphQL</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+
+        <a class="navbar-brand d-flex align-items-center" href="">
+            <img src="images/bookend-logo.png" alt="Logo" height="40" />
+            <span class="ms-2">BlazorGraphQL</span>
+        </a>
+
+        <!-- Blazor-driven toggler -->
+        <button class="navbar-toggler" type="button" @onclick="ToggleNavMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+
+        <!-- Use our collapseNavMenu flag to add/remove "show" -->
+        <div class="collapse navbar-collapse @(collapseNavMenu ? "" : "show")" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
                     <NavLink class="nav-link" href="">🏠 Home</NavLink>
@@ -13,25 +21,15 @@
                 <li class="nav-item">
                     <NavLink class="nav-link" href="books">📚 Books</NavLink>
                 </li>
-
                 <li class="nav-item">
                     <NavLink class="nav-link" href="about">ℹ️ About</NavLink>
-
                 </li>
             </ul>
         </div>
     </div>
 </div>
 
-
-
 @code {
-    private bool collapseNavMenu = true;
-
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
+    bool collapseNavMenu = true;
+    void ToggleNavMenu() => collapseNavMenu = !collapseNavMenu;
 }
