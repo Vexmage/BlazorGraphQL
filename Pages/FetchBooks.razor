@@ -152,7 +152,7 @@ else
         }
     }
 
-    private async Task AddNewBook() // 🔹 Renamed from AddBook() to avoid conflicts
+    private async Task AddNewBook() 
     {
         var mutation = new
         {
@@ -183,7 +183,6 @@ else
             var response = await Http.PostAsJsonAsync("graphql", mutation);
             response.EnsureSuccessStatusCode();
 
-            // Reset the form and refresh books list
             newBook = new()
                 {
                     Title = "Untitled",
