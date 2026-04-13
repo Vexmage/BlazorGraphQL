@@ -38,4 +38,25 @@ public class BookService
 
         return true;
     }
+    public async Task<Book?> UpdateBookAsync(
+    int id,
+    string? status,
+    double? progress)
+    {
+        var book = await _context.Books.FindAsync(id);
+
+        if (book is null)
+            return null;
+
+        if (status is not null)
+            book.Status = status;
+
+        if (progress is not null)
+            book.Progress = progress.Value;
+
+        await _context.SaveChangesAsync();
+
+        return book;
+    }
+
 }

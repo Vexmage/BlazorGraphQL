@@ -37,4 +37,14 @@ public class BookMutation
     {
         return await bookService.DeleteBookAsync(id);
     }
+
+    public async Task<Book?> UpdateBook(
+    int id,
+    string? status,
+    double? progress,
+    [Service] BookService bookService)
+    {
+        return await bookService.UpdateBookAsync(id, status, progress);
+    }
+
 }
