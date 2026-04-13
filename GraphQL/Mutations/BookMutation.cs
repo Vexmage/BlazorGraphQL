@@ -30,4 +30,11 @@ public class BookMutation
 
         return await bookService.AddBookAsync(book);
     }
+
+    public async Task<bool> DeleteBook(
+        int id,
+        [Service] BookService bookService)
+    {
+        return await bookService.DeleteBookAsync(id);
+    }
 }
