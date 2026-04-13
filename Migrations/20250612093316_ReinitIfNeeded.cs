@@ -5,7 +5,7 @@
 namespace BlazorGraphQL.Migrations
 {
     /// <inheritdoc />
-    public partial class AddBookFields : Migration
+    public partial class ReinitIfNeeded : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

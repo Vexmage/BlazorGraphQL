@@ -1,0 +1,22 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace BlazorGraphQL.Domain.Entities
+{
+    public class Book
+    {
+        [Key]
+        public int Id { get; set; }
+
+        public required string Title { get; set; }
+        public required string Author { get; set; }
+
+        public string Genre { get; set; } = "";
+
+        public int YearPublished { get; set; }
+
+        public string Category { get; set; } = "Uncategorized";
+        public string Status { get; set; } = "Wishlist";
+        public string ReflectionNotes { get; set; } = string.Empty;
+        public double Progress { get; set; } = 0.0;
+    }
+}
