@@ -1,7 +1,10 @@
 ﻿using BlazorGraphQL.Application.Services;
+using BlazorGraphQL.GraphQL.Models;
 using BlazorGraphQL.GraphQL.Mutations;
 using BlazorGraphQL.GraphQL.Queries;
+using BlazorGraphQL.GraphQL.Validators;
 using BlazorGraphQL.Infrastructure.Data;
+using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,6 +25,10 @@ builder.Services.AddDbContext<AppDbContext>(options =>
         ?? "Data Source=books.db"));
 
 builder.Services.AddScoped<BookService>();
+
+// Inside Program.cs
+builder.Services.AddScoped<BookService>();
+builder.Services.AddScoped<IValidator<AddBookInput>, AddBookInputValidator>(); // <-- REGISTER VALIDATOR
 
 // Modernized HotChocolate API Engine Configuration Pipeline
 builder.Services

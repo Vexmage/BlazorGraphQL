@@ -1,170 +1,106 @@
-# BlazorGraphQL Book Catalog & Anti-Library
+<p align="center">
+  <img src="wwwroot/images/bookend-logo.png" alt="BlazorGraphQL Logo" width="120" />
+</p>
 
-A .NET 9 Blazor Server application for managing a personal book catalog and “anti-library” — the books already read, currently being read, and still waiting to be explored.
+# 📚 BlazorGraphQL Book Catalog
 
-The project is designed as a practical .NET portfolio piece demonstrating Blazor Server, GraphQL with Hot Chocolate, Entity Framework Core, SQLite persistence, layered architecture, and full CRUD workflows.
+A Blazor Server app that explores the idea of a **Library** and **Anti-Library** — inspired by Nassim Taleb's concept that unread books hold more potential than read ones.
 
-## Features
+This project uses a **GraphQL API** with **EF Core + SQLite** to store and manage a personal catalog of books, along with reading progress and reflections. It demonstrates full-stack Blazor development with a strong architectural foundation.
 
-* Add books with title, author, category, status, year, progress, and reflection notes
-* View books in a responsive card-based Blazor UI
-* Update reading status and progress inline
-* Delete books with confirmation
-* Track reading progress as normalized values stored in the database and displayed as percentages
-* Query and mutate book data through a GraphQL API
-* Persist data locally with EF Core and SQLite
+---
 
-## Tech Stack
+## 🚀 Overview
 
-* .NET 9
-* Blazor Server
-* Hot Chocolate GraphQL
-* Entity Framework Core 9
-* SQLite
-* Bootstrap / BootstrapBlazor
-* C#
+BlazorGraphQL integrates **GraphQL** using HotChocolate, providing an efficient and flexible API for fetching, adding, and deleting books. It complements REST with a single declarative endpoint for structured queries.
 
-## Architecture
+### 🔥 Why GraphQL?
 
-The project uses a layered structure inspired by Clean Architecture principles:
+- **Efficient Data Fetching** – Only request the fields you need  
+- **Single Endpoint** – Handles queries & mutations in one place  
+- **Strongly Typed Schema** – Ensures clarity and safety  
+- **Flexible Filtering & Sorting** – Integrated into query structure  
+- **Declarative Requests** – Clients ask for the shape of data they want
 
-```text
-BlazorGraphQL/
-├── Domain/
-│   └── Entities/
-│       ├── Book.cs
-│       ├── Author.cs
-│       ├── Category.cs
-│       └── Loan.cs
-│
-├── Application/
-│   └── Services/
-│       └── BookService.cs
-│
-├── Infrastructure/
-│   └── Data/
-│       └── AppDbContext.cs
-│
-├── GraphQL/
-│   ├── Queries/
-│   │   └── BookQuery.cs
-│   └── Mutations/
-│       └── BookMutation.cs
-│
-├── Pages/
-│   └── FetchBooks.razor
-│
-└── Shared/
-```
+---
 
-The current data flow is:
+## 🛠️ Tech Stack
 
-```text
-Blazor UI → GraphQL Query/Mutation → BookService → AppDbContext → SQLite
-```
+- **Blazor Server** – Frontend SPA framework using .NET  
+- **GraphQL with HotChocolate** – Type-safe API backend  
+- **EF Core + SQLite** – Lightweight persistent storage  
+- **Bootstrap** – UI styling  
+- **.NET 9.0**
 
-## Project Goals
+---
 
-This project began as a personal library tracker, but it also explores Nassim Nicholas Taleb’s idea of the anti-library: unread books as a visible reminder of future learning.
+## 📌 Features
 
-From a technical perspective, the goal is to demonstrate that a small application can still be structured professionally, with clear boundaries between UI, API, application logic, domain entities, and persistence.
+- 🔍 GraphQL Queries & Mutations  
+- ✨ Clean Blazor UI for viewing and adding books  
+- 🧠 “Library” and “Anti-Library” perspective  
+- 💾 SQLite data persistence  
+- 🔐 Future plans: Auth, tagging, user-specific views
 
-## Current Status
+---
 
-The app currently supports full CRUD operations for books:
+## ⚡ Getting Started
 
-* Create books
-* Read book records
-* Update status and reading progress inline
-* Delete books with confirmation
-
-The project has also been refactored from a flatter early structure into a more maintainable layered layout.
-
-## Getting Started
-
-### Prerequisites
-
-Install the .NET 9 SDK.
-
-You may also need the EF Core CLI tools:
+### 1️⃣ Clone the Repo
 
 ```bash
-dotnet tool install --global dotnet-ef
-```
+git clone https://github.com/your-username/BlazorGraphQL.git
+cd BlazorGraphQL
 
-### Restore dependencies
+### 2️⃣ Restore Dependencies
 
 ```bash
 dotnet restore
-```
 
-### Build the project
-
-```bash
-dotnet build
-```
-
-### Apply database migrations
+### 3️⃣ Run Migrations
 
 ```bash
 dotnet ef database update
-```
 
-### Run the app
+### 4️⃣ Run the App
 
 ```bash
 dotnet run
-```
 
-Then open the local URL shown in the terminal. The books page is usually available at:
+### 📜 Sample GraphQL Queries
 
-```text
-http://localhost:5206/books
-```
+#### 📚 Fetch Books
 
-The GraphQL endpoint is available at:
+query {
+  books {
+    id
+    title
+    author
+    category
+    status
+    progress
+  }
+}
 
-```text
-http://localhost:5206/graphql
-```
+#### ➕ Add a New Book
 
-## Development Notes
+mutation {
+  addBook(
+    title: "The Pragmatic Programmer",
+    author: "Andy Hunt",
+    genre: "Tech",
+    category: "Programming",
+    status: "Wishlist",
+    progress: 0.2,
+    yearPublished: 1999,
+    reflectionNotes: "Looking forward to this one!"
+  ) {
+    id
+    title
+  }
+}
 
-Local development artifacts such as `.vs/`, `bin/`, `obj/`, and `books.db` should not be committed.
 
-If Git tries to stage generated files, use targeted staging:
+## 📖 About the Creator
 
-```bash
-git add Application/
-git add Domain/
-git add Infrastructure/
-git add GraphQL/
-git add Pages/
-git add Shared/
-git add Program.cs
-git add BlazorGraphQL.csproj
-git add README.md
-```
-
-## Roadmap
-
-Possible next improvements:
-
-* Add filtering by reading status
-* Add dashboard metrics for read vs unread books
-* Normalize authors and categories into richer relational entities
-* Add import support for CSV or JSON book data
-* Add tests for `BookService`
-* Deploy a live demo
-* Extend `Loan.cs` into a lending workflow
-
-## Portfolio Value
-
-This project demonstrates:
-
-* Building a full-stack .NET application
-* Working with Blazor Server and event-bound UI state
-* Creating GraphQL queries and mutations with Hot Chocolate
-* Using EF Core with SQLite
-* Refactoring toward layered architecture
-* Debugging package, DI, UI-binding, and data consistency issues
+Built by Joel Southall — software developer & philosophy graduate. This project draws on themes of lifelong learning, digital literacy, and classical aesthetics.

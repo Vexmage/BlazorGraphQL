@@ -167,11 +167,13 @@ else
 
     private async Task AddNewBook()
     {
+        // Updated to route form data fields into the AddBookInput wrapper object
         var mutation = new
         {
             query = $@"
-            mutation {{
-                addBook(
+        mutation {{
+            addBook(
+                input: {{
                     title: ""{EscapeGraphQL(newBook.Title)}"",
                     author: ""{EscapeGraphQL(newBook.Author)}"",
                     genre: ""{EscapeGraphQL(newBook.Genre)}"",
@@ -180,11 +182,12 @@ else
                     status: ""{EscapeGraphQL(newBook.Status)}"",
                     reflectionNotes: ""{EscapeGraphQL(newBook.ReflectionNotes)}"",
                     progress: {newBook.Progress / 100.0}
-                ) {{
-                    id
-                    title
                 }}
-            }}"
+            ) {{
+                id
+                title
+            }}
+        }}"
         };
 
         try
@@ -214,20 +217,22 @@ else
 
     private async Task SaveChanges(Book book)
     {
+        // Updated to wrap updates into the UpdateBookInput DTO contract
         var mutation = new
         {
             query = $@"
-            mutation {{
-                updateBook(
+        mutation {{
+            updateBook(
+                input: {{
                     id: {book.Id},
                     status: ""{EscapeGraphQL(book.Status)}"",
                     progress: {book.Progress}
-                ) {{
-                    id
-                    status
-                    progress
                 }}
-            }}"
+            ) {{
+                id
+                status
+            }}
+        }}"
         };
 
         try
