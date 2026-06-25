@@ -1,12 +1,15 @@
-﻿using BlazorGraphQL.Application.Services;
-using BlazorGraphQL.Domain.Entities;
+﻿using BlazorGraphQL.Domain.Entities;
+using BlazorGraphQL.Infrastructure.Data;
 
 namespace BlazorGraphQL.GraphQL.Queries;
 
 public class BookQuery
 {
-    public async Task<List<Book>> GetBooks([Service] BookService bookService)
+    [UseFiltering]
+    [UseSorting]
+    public IQueryable<Book> GetBooks(AppDbContext context)
     {
-        return await bookService.GetAllBooksAsync();
+        // Simply return the books collection directly without any relational joins
+        return context.Books;
     }
 }

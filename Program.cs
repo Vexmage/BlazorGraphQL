@@ -23,10 +23,13 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddScoped<BookService>();
 
+// Modernized HotChocolate API Engine Configuration Pipeline
 builder.Services
     .AddGraphQLServer()
     .AddQueryType<BookQuery>()
-    .AddMutationType<BookMutation>();
+    .AddMutationType<BookMutation>()
+    .AddFiltering() // Resolves: HotChocolate.SchemaException (No default filter convention found)
+    .AddSorting();  // Smoothly wires IQueryable sorting downstream to your SQLite Context
 
 var app = builder.Build();
 

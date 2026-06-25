@@ -3,7 +3,7 @@
 @inject IJSRuntime JS
 @using BlazorGraphQL.Domain.Entities
 
-<h2 class="text-center mt-4">📚 Book Collection</h2>
+<h2 class="text-center mt-4">📚 Book Collection & Antilibrary</h2>
 
 <div class="container mt-3 p-4 border rounded shadow bg-light">
     <h4 class="mb-3">➕ Add a New Book</h4>
@@ -52,11 +52,11 @@
 
 @if (books == null)
 {
-    <p class="text-center text-muted">Loading...</p>
+    <p class="text-center text-muted mt-4">Loading...</p>
 }
 else if (!books.Any())
 {
-    <p class="text-center text-muted">No books found.</p>
+    <p class="text-center text-muted mt-4">No books found.</p>
 }
 else
 {
@@ -65,20 +65,19 @@ else
             @foreach (var book in books)
             {
                 <div class="col">
-                    <div class="card book-card">
+                    <div class="card h-100 shadow-sm">
                         <div class="card-body">
                             <h5 class="card-title fw-bold text-primary">@book.Title</h5>
                             <p class="card-text text-muted"><i>by @book.Author</i></p>
 
                             <div class="mb-2">
-                                <span class="badge book-tag bg-info">@book.Category</span>
-                                <span class="badge book-tag bg-warning">@book.Status</span>
+                                <span class="badge bg-info">@book.Category</span>
+                                <span class="badge bg-warning text-dark">@book.Status</span>
                             </div>
 
                             <div class="mt-3">
-                                <label class="form-label small">Status</label>
-                                <select class="form-select form-select-sm"
-                                        @bind="book.Status">
+                                <label class="form-label small fw-semibold">Status</label>
+                                <select class="form-select form-select-sm" @bind="book.Status">
                                     <option value="Wishlist">Wishlist</option>
                                     <option value="Reading">Reading</option>
                                     <option value="Completed">Completed</option>
@@ -86,34 +85,24 @@ else
                             </div>
 
                             <div class="mt-2">
-                                <label class="form-label small">Progress (%)</label>
-                                <input type="number"
-                                       class="form-control form-control-sm"
-                                       min="0" max="100"
-                                       @bind="book.Progress" />
+                                <label class="form-label small fw-semibold">Progress (%)</label>
+                                <input type="number" class="form-control form-control-sm" min="0" max="100" @bind="book.ProgressDisplay" />
                             </div>
 
-                            <div class="progress mt-3">
+                            <div class="progress mt-3" style="height: 10px;">
                                 <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
                                      role="progressbar"
-                                     style="@($"width: {Math.Clamp(book.Progress * 100, 5, 100)}%;")"
-                                     aria-valuenow="@((int)(book.Progress * 100))"
-                                     aria-valuemin="0"
-                                     aria-valuemax="100">
-                                    @($"{book.Progress * 100:F0}%")
+                                     style="width: @(Math.Clamp(book.Progress * 100, 5.0, 100.0))%;">
                                 </div>
                             </div>
                         </div>
 
                         <div class="card-footer text-end bg-light border-0">
                             <div class="d-flex justify-content-between">
-                                <button class="btn btn-primary btn-sm"
-                                        @onclick="() => UpdateBook(book)">
+                                <button class="btn btn-primary btn-sm" @onclick="() => SaveChanges(book)">
                                     💾 Save
                                 </button>
-
-                                <button class="btn btn-danger btn-sm"
-                                        @onclick="() => ConfirmDelete(book.Id)">
+                                <button class="btn btn-danger btn-sm" @onclick="() => RequestDelete(book.Id)">
                                     🗑 Delete
                                 </button>
                             </div>
@@ -194,11 +183,6 @@ else
                 ) {{
                     id
                     title
-                    author
-                    genre
-                    category
-                    status
-                    progress
                 }}
             }}"
         };
@@ -228,13 +212,21 @@ else
         }
     }
 
-    private async Task DeleteBook(int bookId)
+    private async Task SaveChanges(Book book)
     {
         var mutation = new
         {
             query = $@"
             mutation {{
-                deleteBook(id: {bookId})
+                updateBook(
+                    id: {book.Id},
+                    status: ""{EscapeGraphQL(book.Status)}"",
+                    progress: {book.Progress}
+                ) {{
+                    id
+                    status
+                    progress
+                }}
             }}"
         };
 
@@ -242,51 +234,36 @@ else
         {
             var response = await Http.PostAsJsonAsync("graphql", mutation);
             response.EnsureSuccessStatusCode();
-
-            books = books?.Where(b => b.Id != bookId).ToList();
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error deleting book: {ex.Message}");
-        }
-    }
-
-    private async Task ConfirmDelete(int id)
-    {
-        if (await JS.InvokeAsync<bool>("confirm", "Delete this book?"))
-        {
-            await DeleteBook(id);
-        }
-    }
-
-    private async Task UpdateBook(Book book)
-    {
-        var mutation = new
-        {
-            query = $@"
-        mutation {{
-            updateBook(
-                id: {book.Id},
-                status: ""{EscapeGraphQL(book.Status)}"",
-                progress: {book.Progress}
-            ) {{
-                id
-                status
-                progress
-            }}
-        }}"
-        };
-
-        try
-        {
-            var response = await Http.PostAsJsonAsync("graphql", mutation);
-            response.EnsureSuccessStatusCode();
-
             await LoadBooks();
         }
         catch (Exception ex)
         {
             Console.WriteLine($"Error updating book: {ex.Message}");
+        }
+    }
+
+    private async Task RequestDelete(int id)
+    {
+        if (await JS.InvokeAsync<bool>("confirm", "Delete this book permanently?"))
+        {
+            var mutation = new
+            {
+                query = $@"
+                mutation {{
+                    deleteBook(id: {id})
+                }}"
+            };
+
+            try
+            {
+                var response = await Http.PostAsJsonAsync("graphql", mutation);
+                response.EnsureSuccessStatusCode();
+                books = books?.Where(b => b.Id != id).ToList();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error deleting book: {ex.Message}");
+            }
         }
     }
 

@@ -18,6 +18,14 @@ public class BookService
         return await _context.Books.ToListAsync();
     }
 
+    public IQueryable<Book> GetBooksQueryable()
+    {
+        // Eagerly load the entity relationships to avoid null references in GraphQL maps
+        return _context.Books
+            .Include(b => b.Author)
+            .Include(b => b.Category);
+    }
+
     public async Task<Book> AddBookAsync(Book book)
     {
         _context.Books.Add(book);

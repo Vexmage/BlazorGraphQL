@@ -7,12 +7,10 @@
             <span class="ms-2">BlazorGraphQL</span>
         </a>
 
-        <!-- Blazor-driven toggler -->
-        <button class="navbar-toggler" type="button" @onclick="ToggleNavMenu">
+        <button class="navbar-toggler" type="button" @onclick="() => ToggleNavMenu()">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!-- Use our collapseNavMenu flag to add/remove "show" -->
         <div class="collapse navbar-collapse @(collapseNavMenu ? "" : "show")" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">

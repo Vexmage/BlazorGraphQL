@@ -5,6 +5,8 @@ namespace BlazorGraphQL.GraphQL.Mutations;
 
 public class BookMutation
 {
+    // Modern HotChocolate automatically binds services registered in Program.cs
+    // without requiring the deprecated [Service] parameter attribute decorator.
     public async Task<Book> AddBook(
         string title,
         string author,
@@ -14,7 +16,7 @@ public class BookMutation
         string? status,
         string? reflectionNotes,
         double? progress,
-        [Service] BookService bookService)
+        BookService bookService)
     {
         var book = new Book
         {
@@ -33,18 +35,17 @@ public class BookMutation
 
     public async Task<bool> DeleteBook(
         int id,
-        [Service] BookService bookService)
+        BookService bookService)
     {
         return await bookService.DeleteBookAsync(id);
     }
 
     public async Task<Book?> UpdateBook(
-    int id,
-    string? status,
-    double? progress,
-    [Service] BookService bookService)
+        int id,
+        string? status,
+        double? progress,
+        BookService bookService)
     {
         return await bookService.UpdateBookAsync(id, status, progress);
     }
-
 }
