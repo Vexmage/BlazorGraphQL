@@ -66,7 +66,7 @@ The solution adheres to a **Clean Architecture / Domain-Driven Design (DDD)-lite
 
     Constructed a standalone testing project assembly (BlazorGraphQL.Tests) configured to prevent structural duplicate assembly attribute overlaps (error CS0579) within the main application via tailored directory compilation exclusions.
 
-    Implemented comprehensive data verification checks (BookInputValidationTests) utilizing expressive fluent extension syntax patterns to aggressively target boundary conditions, required fields, and data mismatches.
+    Implemented comprehensive data verification checks (BookInputValidationTests) utilizing expressive fluent extension syntax patterns to verify validation rules and boundary conditions, required fields, and data mismatches.
 
 🚀 Getting Started
 📋 Prerequisites
