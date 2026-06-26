@@ -16,6 +16,22 @@ This project began as a way to track my own reading, but it also became a vehicl
 
 The solution adheres to a **Clean Architecture / Domain-Driven Design (DDD)-lite** blueprint, split into an independent core application layer and a isolated, high-coverage automated testing tier.
 
+```
+Blazor UI
+      │
+      ▼
+GraphQL
+      │
+      ▼
+Application Services
+      │
+      ▼
+EF Core
+      │
+      ▼
+SQLite
+```
+
 ```text
 📁 BlazorGraphQL (Root Solution)
 │
