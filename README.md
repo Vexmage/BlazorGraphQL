@@ -41,7 +41,9 @@ The solution adheres to a **Clean Architecture / Domain-Driven Design (DDD)-lite
 └── 📁 BlazorGraphQL.Tests    # Isolated Automated xUnit Testing Suite
     └── BookInputValidationTests.cs  # Data contract, field constraint, and timeline validation rules
 
-    ⚡ Tech Stack & Ecosystem Matrix
+```
+
+## ⚡ Tech Stack & Ecosystem Matrix
 
     Frontend Interface: Blazor Server (.NET 9.0) with Bootstrap styling.
 
@@ -55,7 +57,8 @@ The solution adheres to a **Clean Architecture / Domain-Driven Design (DDD)-lite
 
     Testing Framework: xUnit v2.9.2 paired with FluentAssertions v6.12.2.
 
-🔧 Core Engineering Implementations
+## 🔧 Core Engineering Implementations
+
 1. Robust Type-Safe Input Sanitation (DTO Layer)
 
     Decoupling: Swapped out direct entity binding inside frontend views. Introduced explicit AddBookInput and UpdateBookInput record contracts to prevent structural database details from leaking directly into client components.
@@ -74,8 +77,8 @@ The solution adheres to a **Clean Architecture / Domain-Driven Design (DDD)-lite
 
     Implemented comprehensive data verification checks (BookInputValidationTests) utilizing expressive fluent extension syntax patterns to verify validation rules and boundary conditions, required fields, and data mismatches.
 
-🚀 Getting Started
-📋 Prerequisites
+## 🚀 Getting Started
+###📋 Prerequisites
 
 Ensure you have the native .NET 9 SDK installed on your developer workspace machine.
 1️⃣ Restore and Compile the Target Solution
