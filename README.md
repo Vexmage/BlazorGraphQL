@@ -7,7 +7,9 @@ This project couples a responsive frontend with a type-safe **GraphQL API backen
 ---
 ## Why This Project?
 
+
 This project began as a way to track my own reading, but it also became a vehicle for exploring modern .NET application architecture. As the feature set grew, I intentionally refactored the codebase to introduce clearer boundaries, stronger validation, automated tests, and a more maintainable design.
+
 ---
 
 ## 🏗️ Multi-Project Architecture Overview
