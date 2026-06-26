@@ -8,6 +8,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="BootstrapBlazor" Version="9.3.0" />
+		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
 
 		<PackageReference Include="HotChocolate.AspNetCore" Version="14.2.0" />
 		<PackageReference Include="HotChocolate.Data" Version="14.1.0" />
@@ -25,6 +26,12 @@
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 			<PrivateAssets>all</PrivateAssets>
 		</PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Remove="BlazorGraphQL.Tests\**" />
+		<EmbeddedResource Remove="BlazorGraphQL.Tests\**" />
+		<None Remove="BlazorGraphQL.Tests\**" />
 	</ItemGroup>
 
 </Project>
