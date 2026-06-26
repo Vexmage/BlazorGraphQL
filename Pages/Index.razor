@@ -1,0 +1,131 @@
+﻿@page "/"
+@inject HttpClient Http
+@using BlazorGraphQL.Domain.Entities
+
+<div class="home-container">
+    <h1 class="text-center">📚 My Library & Anti-Library</h1>
+    <p class="text-center subtitle">
+        "Read books are far less valuable than unread ones. Your library should contain as much of what you do not know as your financial means allow for."
+        <br>— Nassim Nicholas Taleb, <b>The Black Swan</b>
+    </p>
+
+    <img src="images/bookend-logo.png" alt="BlazorGraphQL logo" style="max-height: 100px;" class="mb-4" />
+
+    <p class="text-center">
+        Welcome to my personal book collection—part <b>Library</b>, part <b>Anti-Library</b>.
+        The <b>Library</b> consists of books I have read and studied, while the <b>Anti-Library</b> represents the vast knowledge I have yet to explore.
+    </p>
+
+    @if (ErrorMessage is not null)
+    {
+        <p class="text-danger">⚠️ @ErrorMessage</p>
+    }
+
+    @if (FeaturedBook is not null)
+    {
+        <div class="featured-book card">
+            <div class="card-body">
+                <h4 class="card-title fw-bold text-primary">📌 Featured Book</h4>
+                <h5 class="fw-bold">@FeaturedBook.Title</h5>
+                <p class="text-muted"><i>by @FeaturedBook.Author</i></p>
+
+                <p><span class="badge bg-info">@FeaturedBook.Category</span></p>
+                <p><span class="badge bg-warning">@FeaturedBook.Status</span></p>
+
+                <div class="progress mt-3">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                         role="progressbar"
+                         style="@($"width: {Math.Clamp(FeaturedBook.Progress * 100, 5, 100)}%;")"
+                         aria-valuenow="@((int)(FeaturedBook.Progress * 100))"
+                         aria-valuemin="0"
+                         aria-valuemax="100">
+                        @($"{FeaturedBook.Progress * 100:F0}%")
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <p class="text-center text-warning">⚠️ No books found in the database.</p>
+    }
+
+    @if (RecentBooks is not null && RecentBooks.Any())
+    {
+        <div class="mt-5">
+            <h4>📖 Recently Added Books</h4>
+            <ul class="list-group">
+                @foreach (var book in RecentBooks)
+                {
+                    <li class="list-group-item">
+                        <strong>@book.Title</strong> by <i>@book.Author</i>
+                    </li>
+                }
+            </ul>
+        </div>
+    }
+
+    <div>
+        <a href="/books" class="btn btn-success btn-lg">➕ Add a New Book</a>
+    </div>
+</div>
+
+@code {
+    private Book? FeaturedBook;
+    private List<Book> RecentBooks = new();
+    private string? ErrorMessage;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            var query = new
+            {
+                query = @"
+                {
+                    books {
+                        id
+                        title
+                        author
+                        category
+                        status
+                        progress
+                    }
+                }"
+            };
+
+            var response = await Http.PostAsJsonAsync("graphql", query);
+            var jsonResponse = await response.Content.ReadAsStringAsync();
+            Console.WriteLine($"GraphQL Response: {jsonResponse}");
+
+            response.EnsureSuccessStatusCode();
+
+            var result = await response.Content.ReadFromJsonAsync<GraphQLResponse>();
+
+            if (result?.Data?.Books is { Count: > 0 })
+            {
+                FeaturedBook = result.Data.Books.FirstOrDefault();
+                RecentBooks = result.Data.Books.Skip(1).Take(2).ToList();
+            }
+            else
+            {
+                ErrorMessage = "No books found in the database.";
+            }
+        }
+        catch (Exception ex)
+        {
+            ErrorMessage = $"Error fetching books: {ex.Message}";
+            Console.WriteLine(ErrorMessage);
+        }
+    }
+
+    public class GraphQLResponse
+    {
+        public BooksData? Data { get; set; }
+    }
+
+    public class BooksData
+    {
+        public List<Book> Books { get; set; } = new();
+    }
+}
