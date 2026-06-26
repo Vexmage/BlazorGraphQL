@@ -121,20 +121,3 @@ Bash
 dotnet run
 
 Open your browser window and navigate to the endpoint address logged in your terminal console (e.g., http://localhost:5206/books) to manage your reading horizons.
-
-
----
-
-### 💾 Step 2: Push the Updated README to GitHub
-
-Now let's stage and push just this file so your GitHub page is completely up to date. Run these commands in your PowerShell console:
-
-```bash
-# 1. Stage the populated file
-git add README.md
-
-# 2. Commit the documentation update
-git commit -m "docs: repopulate README with complete multi-project architecture and validation pipelines"
-
-# 3. Push live to GitHub
-git push origin main
