@@ -17,7 +17,7 @@ The solution adheres to a **Clean Architecture / Domain-Driven Design (DDD)-lite
 │   └── 📁 Entities           # Book.cs (Contains NotMapped UI helpers like ProgressDisplay)
 │
 ├── 📁 Application            # Application-specific business rules and orchestration orchestration
-│   └── 📁 Services           # BookService.cs (Handles thread-safe database C.R.U.D commands)
+│   └── 📁 Services           # BookService.cs (Handles asynchronous CRUD operations)
 │
 ├── 📁 Infrastructure         # Data access mapping, persistence mechanisms, and local storage
 │   └── 📁 Data               # AppDbContext.cs (EF Core infrastructure context wired to SQLite)
