@@ -1,6 +1,6 @@
 # 📚 BlazorGraphQL Book Catalog & Anti-Library Dashboard
 
-A high-performance **Blazor Server** application designed around Nassim Taleb's philosophical concept of the **Anti-Library**—the idea that a collection of unread books holds far more intellectual potential, curiosity, and humility than those we have already consumed. 
+A **Blazor Server** application designed around Nassim Taleb's philosophical concept of the **Anti-Library**—the idea that a collection of unread books holds far more intellectual potential, curiosity, and humility than those we have already consumed. 
 
 This project couples a responsive frontend with a type-safe **GraphQL API backend** powered by **HotChocolate**, using **Entity Framework Core** and a **SQLite** database to seamlessly manage, filter, and track a personal catalog of volumes, reading metrics, and reflection entries.
 
