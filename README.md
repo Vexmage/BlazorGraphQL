@@ -5,6 +5,10 @@ A **Blazor Server** application designed around Nassim Taleb's philosophical con
 This project couples a responsive frontend with a type-safe **GraphQL API backend** powered by **HotChocolate**, using **Entity Framework Core** and a **SQLite** database to seamlessly manage, filter, and track a personal catalog of volumes, reading metrics, and reflection entries.
 
 ---
+## Why This Project?
+
+This project began as a way to track my own reading, but it also became a vehicle for exploring modern .NET application architecture. As the feature set grew, I intentionally refactored the codebase to introduce clearer boundaries, stronger validation, automated tests, and a more maintainable design.
+---
 
 ## 🏗️ Multi-Project Architecture Overview
 
